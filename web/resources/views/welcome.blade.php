@@ -3,9 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
+        <title>SyariHub</title>
+        <link rel="icon" type="icon/image" href="/img/unnamed.png">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <!-- Styles -->
@@ -65,32 +64,93 @@
             <h4>Dengan Layanan Kami, Kebutuhan Anda Terpenuhi</h4>
         </div>
         <div id="atas" class="row">
-            <div class="col-sm-2">1</div>
-            <div class="col-sm-2">2</div>
-            <div class="col-sm-2">3</div>
-            <div class="col-sm-2">4</div>
-            <div class="col-sm-2">5</div>
-            <div class="col-sm-2">6</div>          
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8" >
+                <div class="row">
+                    <div class="col-sm-2">
+                        <a href="https://www.w3schools.com">
+                            <figure>
+                                <img src="/img/ojek.png" style="width:80%;">
+                                <figcaption>Syari-Ride</figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-sm-2">
+                        <a href="https://www.w3schools.com">
+                            <figure>
+                                <img src="/img/nany.png" style="width:80%;">
+                                <figcaption>Syari-Ride</figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-sm-2">
+                        <a href="https://www.w3schools.com">
+                            <figure>
+                                <img src="/img/ojek-bln.png" style="width:80%;">
+                                <figcaption>Syari-Ride</figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-sm-2">
+                        <a href="https://www.w3schools.com">
+                            <figure>
+                                <img src="/img/catering.png" style="width:80%;">
+                                <figcaption>Syari-Ride</figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2"></div>          
         </div>
+        <br>
         <div id="bawah" class="row">
-            <div class="col-sm-3">1</div>
-            <div class="col-sm-3">2</div>
-            <div class="col-sm-3">3</div>
-            <div class="col-sm-3">4</div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <div class="row">
+                <div class="col-sm-2">
+                        <a href="https://www.w3schools.com">
+                            <figure>
+                                <img src="/img/ngaji.png" style="width:90%;">
+                                <figcaption>Syari-Ngaji</figcaption>
+                            </figure>
+                        </a>
+                </div>
+                <div class="col-sm-2">
+                        <a href="https://www.w3schools.com">
+                            <figure>
+                                <img src="/img/store.png" style="width:90%;">
+                                <figcaption>Syari-Store</figcaption>
+                            </figure>
+                        </a>
+                </div>
+                <div class="col-sm-2">
+                        <a href="https://www.w3schools.com">
+                            <figure>
+                                <img src="/img/lifestyle.png" style="width:90%;">
+                                <figcaption>Syari-LifeStyle</figcaption>
+                            </figure>
+                        </a>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-2"></div>
         </div>
     </div>
     <div id="download">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6" id="download-1">
                 <div id="tulisan">
-                    Download Sekarang di..
+                    <b>Download Sekarang !</b>
                 </div>
+                <br>
+                <br>
                 <div id="icon_gogleplay">
-                    gambar
+                    <img src="/img/gogle_play.png" style="width:60%;">
                 </div>
             </div>
-            <div class="col-sm-6">
-                gambar
+            <div class="col-sm-6" id="gambar">
+                <img src="/img/hp.png" style="width:110%;" >
             </div>
         </div>
     </div>
@@ -98,20 +158,29 @@
         <div id="tulisan">
             Telah Diliput Oleh
         </div>
+        <br><br>
         <div id="icon_media" class="row">
             <div class="col-sm-4">
-                gambar1
+                <img src="/img/rcti.png" style="width:70%;">
             </div> 
             <div class="col-sm-4">
-                gambar2
+                <img src="/img/nett.png" style="width:70%;">
             </div>
             <div class="col-sm-4">
-                gambar3
+                <img src="/img/trans7.png" style="width:70%;">
             </div>                
         </div>
     </div>
     <div id="footer">
-        <img src="/img/">
+        <a href="https://www.w3schools.com">
+            <img src="/img/twitter.png" style="width:7%;">
+         </a>
+         <a href="https://www.w3schools.com">
+            <img src="/img/facebook.png" style="width:7%;">
+         </a>
+         <a href="https://www.w3schools.com">
+            <img src="/img/instagram.png" style="width:7%;">
+         </a>   
     </div>
     <script>
         var slideIndex = 0;
