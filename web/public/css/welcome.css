@@ -8,7 +8,7 @@ body {font-family: Verdana, sans-serif;}
 }
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  width: :100%;
   position: relative;
   margin: auto;
 }
@@ -72,11 +72,23 @@ body {font-family: Verdana, sans-serif;}
 }
 
 #pengenalan{
-
+font-family: 'Lucida Sans';
+padding : 7%;
+font-size: 50px;
+}
+#pengenalan p{
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
-#macam_layanan{
-    background-color: green;
+#macam_layanan{  
+    background-color: #B0E0E6;
+}
+#macam_layanan #tulisan{
+  padding-top: 3%; 
+  padding-bottom: 3%;
+  font-family: 'Lucida Sans';
+  text-align: center;
 }
 
 #download{

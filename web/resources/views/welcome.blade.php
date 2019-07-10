@@ -47,10 +47,12 @@
     <div id="pengenalan">
         <div class="row">
             <div class="col-sm-6">
-                Tulisan Pengenalan
+                <b>SyariHub - Aplikasi Kebutuhan Syariah</b>
+                <br>
+                <p>Berbagai layanan syariah untuk ukhuwah Islamiyah</p>
             </div>
             <div class="col-sm-6"> 
-                <video width="400" controls>
+                <video width="600" controls>
                 <source src="/video/ojesy.mp4" type="video/mp4">
                 <source src="/video/ojesy.ogg" type="video/ogg">
                 Your browser does not support HTML5 video.
@@ -71,20 +73,25 @@
             <div class="col-sm-2">6</div>          
         </div>
         <div id="bawah" class="row">
-            <div class="col-sm-2">1</div>
-            <div class="col-sm-2">2</div>
-            <div class="col-sm-2">3</div>
-            <div class="col-sm-2">4</div>
-            <div class="col-sm-2">5</div>
-            <div class="col-sm-2">6</div> 
+            <div class="col-sm-3">1</div>
+            <div class="col-sm-3">2</div>
+            <div class="col-sm-3">3</div>
+            <div class="col-sm-3">4</div>
         </div>
     </div>
     <div id="download">
-        <div id="tulisan">
-            Download Sekarang di..
-        </div>
-        <div id="icon_gogleplay">
-            gambar
+        <div class="row">
+            <div class="col-sm-6">
+                <div id="tulisan">
+                    Download Sekarang di..
+                </div>
+                <div id="icon_gogleplay">
+                    gambar
+                </div>
+            </div>
+            <div class="col-sm-6">
+                gambar
+            </div>
         </div>
     </div>
     <div id="telah_diliput">
