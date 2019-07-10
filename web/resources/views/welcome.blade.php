@@ -50,7 +50,11 @@
                 Tulisan Pengenalan
             </div>
             <div class="col-sm-6"> 
-                Video
+                <video width="400" controls>
+                <source src="/video/ojesy.mp4" type="video/mp4">
+                <source src="/video/ojesy.ogg" type="video/ogg">
+                Your browser does not support HTML5 video.
+                </video>
             </div>
         </div>
     </div>
@@ -100,7 +104,7 @@
         </div>
     </div>
     <div id="footer">
-        
+        <img src="/img/">
     </div>
     <script>
         var slideIndex = 0;
