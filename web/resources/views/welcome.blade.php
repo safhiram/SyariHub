@@ -53,11 +53,8 @@
                 <p>Berbagai layanan syariah untuk ukhuwah Islamiyah</p>
             </div>
             <div class="col-sm-6"> 
-                <video width="600" controls>
-                <source src="/video/ojesy.mp4" type="video/mp4">
-                <source src="/video/ojesy.ogg" type="video/ogg">
-                Your browser does not support HTML5 video.
-                </video>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/alld44x9Fbc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
             </div>
         </div>
     </div>
@@ -182,10 +179,10 @@
         </div>
     </div>
     <div id="footer">
-        <a href="">
-            <img src="/img/twitter.png" style="width:7%;">
+        <a href="https://www.youtube.com/channel/UCviHmF9zS25B19n6lYarVJw">
+            <img src="/img/youtube.png" style="width:9%;">
          </a>
-         <a href="">
+         <a href="https://www.facebook.com/Admin1.Ojesy">
             <img src="/img/facebook.png" style="width:7%;">
          </a>
          <a href="https://www.instagram.com/syarihub.id/">
