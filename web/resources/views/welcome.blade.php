@@ -16,6 +16,25 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </head>
     <body>
+    <!--============================= Navbar =============================-->
+    <div class="nav-menu">
+        <div class="bg transition">
+            <div class="container-fluid fixed">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <img src="/img/unnamed.png" style="width:5%;">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" style="color:navy" href="/beranda">Beranda</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- SlideShow -->
     <div id="slideshow">
         <div class="slideshow-container">
@@ -146,7 +165,9 @@
                 <br>
                 <br>
                 <div id="icon_gogleplay">
-                    <img src="/img/gogle_play.png" style="width:60%;">
+                    <a href="https://play.google.com/store/apps/details?id=com.ojesy.ojesy&hl=en">
+                        <img src="/img/gogle_play.png" style="width:60%;">
+                    </a>
                 </div>
             </div>
             <div class="col-sm-6" id="gambar">
@@ -161,24 +182,30 @@
         <br><br>
         <div id="icon_media" class="row">
             <div class="col-sm-4">
-                <img src="/img/rcti.png" style="width:70%;">
+                <a href="https://www.rcti.tv/">
+                    <img src="/img/rcti.png" style="width:70%;">
+                </a>
             </div> 
             <div class="col-sm-4">
-                <img src="/img/nett.png" style="width:70%;">
+                <a href="http://www.netmedia.co.id">
+                    <img src="/img/nett.png" style="width:70%;">
+                </a>
             </div>
             <div class="col-sm-4">
-                <img src="/img/trans7.png" style="width:70%;">
+                <a href="https://www.trans7.co.id/">
+                    <img src="/img/trans7.png" style="width:70%;">
+                </a>
             </div>                
         </div>
     </div>
     <div id="footer">
-        <a href="https://www.w3schools.com">
+        <a href="">
             <img src="/img/twitter.png" style="width:7%;">
          </a>
-         <a href="https://www.w3schools.com">
+         <a href="">
             <img src="/img/facebook.png" style="width:7%;">
          </a>
-         <a href="https://www.w3schools.com">
+         <a href="https://www.instagram.com/syarihub.id/">
             <img src="/img/instagram.png" style="width:7%;">
          </a>   
     </div>
