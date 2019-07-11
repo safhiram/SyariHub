@@ -17,51 +17,34 @@
     </head>
     <body>
     <!--============================= Navbar =============================-->
-    <div class="nav-menu">
-        <div class="bg transition">
-            <div class="container-fluid fixed">
-                <div class="row">
-                    <div class="col-md-12">
-                        <nav class="navbar navbar-expand-lg navbar-light">
-                            <img src="/img/unnamed.png" style="width:5%;">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" style="color:navy" href="/beranda">Beranda</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="navbar">
+        <img src="/img/unnamed.png" style="width:5%;">
     </div>
-    <!-- SlideShow -->
-    <div id="slideshow">
-        <div class="slideshow-container">
-            <div class="mySlides">
-                <div class="numbertext">1 / 3</div>
-                <img src="/img/SYARI_RIDE.png" style="width:100%">
-                <div class="text">Caption Text</div>
-            </div>
+ <!-- Slideshow container -->
+<div id="slideshow">
+    <div class="slideshow-container">
 
-            <div class="mySlides">
-                <div class="numbertext">2 / 3</div>
-                <img src="/img/MOKUP_CATERING.png" style="width:100%">
-                <div class="text">Caption Two</div>
-            </div>
-
-            <div class="mySlides">
-                <div class="numbertext">3 / 3</div>
-                <img src="/img/MOKUP_NANNY.png" style="width:100%">
-                <div class="text">Caption Three</div>
-            </div>
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="/img/MOKUP_CATERING.png" style="width:100%">
         </div>
-        <div style="text-align:center">
-            <span class="dot"></span> 
-            <span class="dot"></span> 
-            <span class="dot"></span> 
+      
+        <div class="mySlides fade">
+          <img src="/img/MOKUP_NANNY.png" style="width:100%">
         </div>
+      
+        <div class="mySlides fade">
+          <img src="/img/SYARI_RIDE.png" style="width:100%">
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
+</div>
+<br>
+
+    <!-- Pengenalan -->
     <div id="pengenalan">
         <div class="row">
             <div class="col-sm-6">
@@ -210,25 +193,21 @@
          </a>   
     </div>
     <script>
-        var slideIndex = 0;
-        showSlides();
+    var slideIndex = 0;
+    showSlides();
 
-        function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}    
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-        setTimeout(showSlides, 2000); // Change image every 2 seconds
-        }
+    function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+    }
+  
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
     </script>
     </body>
 </html>
