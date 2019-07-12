@@ -25,7 +25,7 @@
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
             <a class="nav-link" href="#">
-                <img src="/img/unnamed.png" style="width:15%;"> 
+                <img src="/img/unnamed.png" style="width:15%;">
                 <span class="sr-only">(current)</span>
             </a>
             </li>
@@ -62,7 +62,7 @@
                 <b>SyariHub - Aplikasi Kebutuhan Syariah</b>
                 <br>
                 <p>
-                <a class="typewrite" data-period="2000" data-type='[ "Berbagai layanan syariah untuk ukhuwah Islamiyah"]' style="color:black; text-decoration:none; font-family:'Lucas Sans'; font-size: 120%;">
+                <a class="typewrite" data-period="2000" data-type='[ "  Berbagai layanan syariah untuk ukhuwah Islamiyah"]' style="color:black; text-decoration:none; font-family:'Lucas Sans'; font-size: 120%;">
                 <span class="wrap"></span>
                 </a>
                 </p>
