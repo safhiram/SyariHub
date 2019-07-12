@@ -20,14 +20,11 @@
     </head>
     <body>
     <!--============================= Navbar =============================-->
-    <nav class="navbar navbar-expand-sm   navbar-light bg-light" style="padding: .3%;">
+    <nav class="navbar navbar-expand-sm   navbar-light bg-light" style="padding: 0%;">
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
-            <a class="nav-link" href="#">
-                <img src="/img/unnamed.png" style="width:15%;">
-                <span class="sr-only">(current)</span>
-            </a>
+              <a class="nav-link" href="#"><img src="/img/unnamed.png" style="width:12%; padding-left:3%;"> <span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
