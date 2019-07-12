@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#"><img src="/img/unnamed.png" style="width:12%; padding-left:3%;"> <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#"><img src="/img/unnamed.png" style="width:25%; padding-left:15%;"> <span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
@@ -72,7 +72,7 @@
     </div>
     <div id="macam_layanan">
         <div id="tulisan">
-            <h4>Dengan Layanan Kami, Kebutuhan Anda Terpenuhi</h4>
+            <b>Dengan Layanan Kami, Kebutuhan Anda Terpenuhi</b>
         </div>
         <div id="atas" class="row">
             <div class="col-sm-2"></div>
@@ -170,7 +170,7 @@
     </div>
     <div id="telah_diliput">
         <div id="tulisan">
-            Telah Diliput Oleh :
+            <b>Telah Diliput Oleh :</b>
         </div>
         <br><br>
         <div id="icon_media" class="row">

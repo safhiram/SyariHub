@@ -102,6 +102,7 @@ font-size: 50px;
 #macam_layanan #tulisan{
   padding-top: 3%; 
   padding-bottom: 3%;
+  font-size: 30px;
 }
 #macam_layanan #atas {
   padding-left:20%;
@@ -128,7 +129,7 @@ font-size: 50px;
 }
 
 #telah_diliput #tulisan{
-  font-family: 'Lucida Sans';
+  font-family: 'Segoe UI';
   font-size: 30px;
   text-align: center;
 }
