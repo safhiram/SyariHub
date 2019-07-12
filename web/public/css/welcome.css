@@ -103,12 +103,12 @@ font-size: 50px;
 
 #macam_layanan{ 
     padding-bottom: 5%;
+    font-family: 'Lucida Sans';
+    text-align: center;
 }
 #macam_layanan #tulisan{
   padding-top: 3%; 
   padding-bottom: 3%;
-  font-family: 'Lucida Sans';
-  text-align: center;
 }
 #macam_layanan #atas {
   padding-left:20%;
@@ -158,4 +158,10 @@ font-size: 50px;
   text-align: left;
   text-decoration: none;
   color:black;
+}
+
+figure{
+  text-align: center;
+  text-decoration: none;
+  font-size:110%;
 }

@@ -33,7 +33,7 @@
             <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
           </div>
         </div>
-      </nav>
+    </nav>
       <br>
  <!-- Slideshow container -->
 <div id="slideshow">
@@ -88,15 +88,8 @@
                         <a href="https://www.w3schools.com">
                             <figure>
                                 <img src="/img/ojek.png" style="width:80%;">
-                                <figcaption>Syari-Ride</figcaption>
-                            </figure>
-                        </a>
-                    </div>
-                    <div class="col-sm-2">
-                        <a href="https://www.w3schools.com">
-                            <figure>
-                                <img src="/img/nany.png" style="width:80%;">
-                                <figcaption>Syari-Ride</figcaption>
+                                <figcaption>Syari<br>Ride
+                                </figcaption>
                             </figure>
                         </a>
                     </div>
@@ -104,7 +97,15 @@
                         <a href="https://www.w3schools.com">
                             <figure>
                                 <img src="/img/ojek-bln.png" style="width:80%;">
-                                <figcaption>Syari-Ride</figcaption>
+                                <figcaption>Syari<br>Ride<br>Bulanan</figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-sm-2">
+                        <a href="https://www.w3schools.com">
+                            <figure>
+                                <img src="/img/nany.png" style="width:80%;">
+                                <figcaption>Syari<br>Nany</figcaption>
                             </figure>
                         </a>
                     </div>
@@ -112,7 +113,7 @@
                         <a href="https://www.w3schools.com">
                             <figure>
                                 <img src="/img/catering.png" style="width:80%;">
-                                <figcaption>Syari-Ride</figcaption>
+                                <figcaption>Syari<br>Catering</figcaption>
                             </figure>
                         </a>
                     </div>
@@ -124,12 +125,12 @@
         <div id="bawah" class="row">
             <div class="col-sm-2"></div>
             <div class="col-sm-8">
-                <div class="row">
+                <div class="row" id="coba">
                 <div class="col-sm-2">
                         <a href="https://www.w3schools.com">
                             <figure>
                                 <img src="/img/ngaji.png" style="width:90%;">
-                                <figcaption>Syari-Ngaji</figcaption>
+                                <figcaption>Syari<br>Ngaji</figcaption>
                             </figure>
                         </a>
                 </div>
@@ -137,7 +138,7 @@
                         <a href="https://www.w3schools.com">
                             <figure>
                                 <img src="/img/store.png" style="width:90%;">
-                                <figcaption>Syari-Store</figcaption>
+                                <figcaption>Syari<br>Store</figcaption>
                             </figure>
                         </a>
                 </div>
@@ -145,7 +146,7 @@
                         <a href="https://www.w3schools.com">
                             <figure>
                                 <img src="/img/lifestyle.png" style="width:90%;">
-                                <figcaption>Syari-LifeStyle</figcaption>
+                                <figcaption>Syari<br>LifeStyle</figcaption>
                             </figure>
                         </a>
                 </div>
