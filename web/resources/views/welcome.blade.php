@@ -38,7 +38,7 @@
 
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
-          <img src="/img/mockup.png" style="width:100%">
+          <img src="/img/cob.png" style="width:100%">
         </div>
       
         <div class="mySlides fade">
