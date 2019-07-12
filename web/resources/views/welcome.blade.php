@@ -34,22 +34,21 @@
           </div>
         </div>
     </nav>
-      <br>
  <!-- Slideshow container -->
 <div id="slideshow">
-    <div class="slideshow-container">
+    <div class="slideshow">
 
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
-          <img src="/img/MOKUP_CATERING.png" style="width:100%">
+          <img src="/img/mockup.png" style="width:100%">
         </div>
       
         <div class="mySlides fade">
-          <img src="/img/MOKUP_NANNY.png" style="width:100%">
+          <img src="/img/mockup1.png" style="width:100%">
         </div>
       
         <div class="mySlides fade">
-          <img src="/img/SYARI_RIDE.png" style="width:100%">
+          <img src="/img/mockup2.png" style="width:100%">
         </div>
       
         <!-- Next and previous buttons -->
