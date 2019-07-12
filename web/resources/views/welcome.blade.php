@@ -14,12 +14,26 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
     <!--============================= Navbar =============================-->
-    <div class="navbar">
-        <img src="/img/unnamed.png" style="width:5%;">
-    </div>
+    <nav class="navbar navbar-expand-sm   navbar-light bg-light" style="padding: .3%;">
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="/img/unnamed.png" style="width:11%; padding-left:2%;"> <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <div class="social-part">
+            <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </nav>
+      <br>
  <!-- Slideshow container -->
 <div id="slideshow">
     <div class="slideshow-container">
@@ -42,7 +56,6 @@
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
 </div>
-<br>
 
     <!-- Pengenalan -->
     <div id="pengenalan">
