@@ -1,6 +1,3 @@
-.social-part .fa{
-  padding-right:20px;
-}
 ul li a{
   margin-right: 20px;
 }
@@ -92,7 +89,7 @@ ul li a{
 }
 
 #pengenalan{
-font-family: 'Lucida Sans';
+font-family: 'Segoe UI';
 padding : 7%;
 font-size: 50px;
 }
@@ -103,7 +100,7 @@ font-size: 50px;
 
 #macam_layanan{ 
     padding-bottom: 5%;
-    font-family: 'Lucida Sans';
+    font-family: 'Segoe UI';
     text-align: center;
 }
 #macam_layanan #tulisan{
@@ -127,8 +124,8 @@ font-size: 50px;
   padding-top: 6%;
 }
 #download #tulisan{
-  font-family: 'Lucida Sans';
-  font-size: 30px;
+  font-family: traja;
+  font-size: 29px;
 }
 #download #gambar{
   padding-right: 10%;

@@ -24,14 +24,12 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#"><img src="/img/unnamed.png" style="width:11%; padding-left:2%;"> <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">
+                <img src="/img/unnamed.png" style="width:15%;"> 
+                <span class="sr-only">(current)</span>
+            </a>
             </li>
           </ul>
-          <div class="social-part">
-            <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-          </div>
         </div>
     </nav>
  <!-- Slideshow container -->
@@ -158,7 +156,7 @@
         <div class="row">
             <div class="col-sm-6" id="download-1">
                 <div id="tulisan">
-                    <b>Download Sekarang !</b>
+                    <b>DOWNLOAD SEKARANG !</b>
                 </div>
                 <br>
                 <br>
@@ -175,7 +173,7 @@
     </div>
     <div id="telah_diliput">
         <div id="tulisan">
-            Telah Diliput Oleh
+            Telah Diliput Oleh :
         </div>
         <br><br>
         <div id="icon_media" class="row">
