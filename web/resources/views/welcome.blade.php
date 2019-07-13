@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#"><img src="/img/unnamed.png" style="width:25%; padding-left:15%;"> <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#"><img src="/img/unnamed.png" style="width:26%; padding-left:15%;"> <span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
@@ -72,14 +72,14 @@
     </div>
     <div id="macam_layanan">
         <div id="tulisan">
-            <b>Dengan Layanan Kami, Kebutuhan Anda Terpenuhi</b>
+            <b>Dengan Layanan Syari, Kebutuhan Muslim Terpenuhi</b>
         </div>
         <div id="atas" class="row">
             <div class="col-sm-2"></div>
             <div class="col-sm-8" >
                 <div class="row">
                     <div class="col-sm-2">
-                        <a href="https://www.w3schools.com">
+                        <a href="">
                             <figure>
                                 <img src="/img/ojek.png" style="width:80%;">
                                 <figcaption>Syari<br>Ride
@@ -88,7 +88,7 @@
                         </a>
                     </div>
                     <div class="col-sm-2">
-                        <a href="https://www.w3schools.com">
+                        <a href="">
                             <figure>
                                 <img src="/img/ojek-bln.png" style="width:80%;">
                                 <figcaption>Syari<br>Ride<br>Bulanan</figcaption>
@@ -96,7 +96,7 @@
                         </a>
                     </div>
                     <div class="col-sm-2">
-                        <a href="https://www.w3schools.com">
+                        <a href="">
                             <figure>
                                 <img src="/img/nany.png" style="width:80%;">
                                 <figcaption>Syari<br>Nany</figcaption>
@@ -104,7 +104,7 @@
                         </a>
                     </div>
                     <div class="col-sm-2">
-                        <a href="https://www.w3schools.com">
+                        <a href="">
                             <figure>
                                 <img src="/img/catering.png" style="width:80%;">
                                 <figcaption>Syari<br>Catering</figcaption>
@@ -121,7 +121,7 @@
             <div class="col-sm-8">
                 <div class="row" id="coba">
                 <div class="col-sm-2">
-                        <a href="https://www.w3schools.com">
+                        <a href="">
                             <figure>
                                 <img src="/img/ngaji.png" style="width:90%;">
                                 <figcaption>Syari<br>Ngaji</figcaption>
@@ -129,7 +129,15 @@
                         </a>
                 </div>
                 <div class="col-sm-2">
-                        <a href="https://www.w3schools.com">
+                    <a href="">
+                        <figure>
+                            <img src="/img/massage.png" style="width:90%;">
+                            <figcaption>Syari<br>Massage</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                        <a href="">
                             <figure>
                                 <img src="/img/store.png" style="width:90%;">
                                 <figcaption>Syari<br>Store</figcaption>
@@ -137,7 +145,7 @@
                         </a>
                 </div>
                 <div class="col-sm-2">
-                        <a href="https://www.w3schools.com">
+                        <a href="">
                             <figure>
                                 <img src="/img/lifestyle.png" style="width:90%;">
                                 <figcaption>Syari<br>LifeStyle</figcaption>
