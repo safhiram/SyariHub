@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SyariHub</title>
         <link rel="icon" type="icon/image" href="/img/unnamed.png">
         <!-- Fonts -->
@@ -16,11 +16,11 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     </head>
     <body>
     <!--============================= Navbar =============================-->
-    <nav class="navbar navbar-expand-sm   navbar-light bg-light" style="padding: 0%;">
+    <nav class="navbar navbar-expand-sm   navbar-light bg-light">
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
@@ -65,11 +65,12 @@
                 </p>
             </div>
             <div class="col-sm-6"> 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/alld44x9Fbc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                <iframe width="100%" height="150%" src="https://www.youtube.com/embed/alld44x9Fbc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
             </div>
         </div>
     </div>
+    <br><br><br>
     <div id="macam_layanan">
         <div id="tulisan">
             <b>Dengan Layanan Syari, Kebutuhan Muslim Terpenuhi</b>
@@ -81,8 +82,8 @@
                     <div class="col-sm-2">
                         <a href="">
                             <figure>
-                                <img src="/img/ojek.png" style="width:80%;">
-                                <figcaption>Syari<br>Ride
+                                <img src="/img/ojek.png" style="width:180%;max-width:100px;">
+                                <figcaption style>Syari<br>Ride
                                 </figcaption>
                             </figure>
                         </a>
@@ -90,7 +91,7 @@
                     <div class="col-sm-2">
                         <a href="">
                             <figure>
-                                <img src="/img/ojek-bln.png" style="width:80%;">
+                                <img src="/img/ojek-bln.png" style="width:180%;max-width:100px;">
                                 <figcaption>Syari<br>Ride<br>Bulanan</figcaption>
                             </figure>
                         </a>
@@ -98,7 +99,7 @@
                     <div class="col-sm-2">
                         <a href="">
                             <figure>
-                                <img src="/img/nany.png" style="width:80%;">
+                                <img src="/img/nany.png" style="width:180%;max-width:100px;">
                                 <figcaption>Syari<br>Nany</figcaption>
                             </figure>
                         </a>
@@ -106,7 +107,7 @@
                     <div class="col-sm-2">
                         <a href="">
                             <figure>
-                                <img src="/img/catering.png" style="width:80%;">
+                                <img src="/img/catering.png" style="width:180%;max-width:100px;">
                                 <figcaption>Syari<br>Catering</figcaption>
                             </figure>
                         </a>
@@ -123,7 +124,7 @@
                 <div class="col-sm-2">
                         <a href="">
                             <figure>
-                                <img src="/img/ngaji.png" style="width:90%;">
+                                <img src="/img/ngaji.png" style="width:190%;max-width:100px;">
                                 <figcaption>Syari<br>Ngaji</figcaption>
                             </figure>
                         </a>
@@ -131,7 +132,7 @@
                 <div class="col-sm-2">
                     <a href="">
                         <figure>
-                            <img src="/img/massage.png" style="width:90%;">
+                            <img src="/img/massage.png" style="width:190%;max-width:100px;">
                             <figcaption>Syari<br>Massage</figcaption>
                         </figure>
                     </a>
@@ -139,7 +140,7 @@
                 <div class="col-sm-2">
                         <a href="">
                             <figure>
-                                <img src="/img/store.png" style="width:90%;">
+                                <img src="/img/store.png" style="width:190%;max-width:100px;">
                                 <figcaption>Syari<br>Store</figcaption>
                             </figure>
                         </a>
@@ -147,7 +148,7 @@
                 <div class="col-sm-2">
                         <a href="">
                             <figure>
-                                <img src="/img/lifestyle.png" style="width:90%;">
+                                <img src="/img/lifestyle.png" style="width:190%;max-width:100px;">
                                 <figcaption>Syari<br>LifeStyle</figcaption>
                             </figure>
                         </a>
@@ -172,29 +173,31 @@
                 </div>
             </div>
             <div class="col-sm-6" id="gambar">
-                <img src="/img/hp.png" style="width:110%;" >
+            <br><br>
+                <img src="/img/hp.png" style="width:100%;" >
             </div>
         </div>
     </div>
+    <br>
     <div id="telah_diliput">
         <div id="tulisan">
             <b>Telah Diliput Oleh :</b>
         </div>
         <br><br>
-        <div id="icon_media" class="row">
+        <div id="icon_media" class="row" style="text-align:center;">
             <div class="col-sm-4">
                 <a href="https://www.rcti.tv/">
-                    <img src="/img/rcti.png" style="width:70%;">
+                    <img src="/img/rcti.png" style="width:70%;max-width:200px;">
                 </a>
             </div> 
             <div class="col-sm-4">
                 <a href="http://www.netmedia.co.id">
-                    <img src="/img/nett.png" style="width:70%;">
+                    <img src="/img/nett.png" style="width:70%;max-width:200px;">
                 </a>
             </div>
             <div class="col-sm-4">
                 <a href="https://www.trans7.co.id/">
-                    <img src="/img/trans7.png" style="width:70%;">
+                    <img src="/img/trans7.png" style="width:70%;max-width:300px;">
                 </a>
             </div>                
         </div>

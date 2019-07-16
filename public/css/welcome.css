@@ -1,11 +1,4 @@
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
+* {box-sizing:border-box;}
 
 /* Hide the images by default */
 .mySlides {
@@ -94,7 +87,7 @@ font-size: 50px;
   letter-spacing: 2px;
 }
 
-#macam_layanan{ 
+  #macam_layanan{ 
     padding-bottom: 5%;
     font-family: 'Segoe UI';
     text-align: center;
@@ -134,7 +127,6 @@ font-size: 50px;
   text-align: center;
 }
 #telah_diliput #icon_media{
-  padding-left: 9%;
   padding-bottom:10%;
 }
 
