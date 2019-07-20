@@ -130,11 +130,11 @@ font-size: 50px;
 #iconmedia{
   padding-top : 5%;
   padding-bottom:5%;
+  text-align: center;
 }
 .hm {
   width:32%;
   display:inline-block;
-  text-align:center;
 }
 .yap {
   width:33%;
@@ -144,11 +144,10 @@ font-size: 50px;
 
 #footer{
     background-image:url('/img/back.png'); 
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align:center;
-    padding:5%;
-    padding-top:7%;
-    padding-bottom:3%;
+    padding:7%;
 }
 
 #coba{

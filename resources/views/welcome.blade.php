@@ -62,7 +62,7 @@
                 </p>
             </div>
             <div class="col-sm-6"> 
-                <iframe width="100%" height="150%" src="https://www.youtube.com/embed/alld44x9Fbc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                <iframe width="100%" height="150%" src="https://www.youtube.com/embed/CWjnJ1CRahQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
             </div>
         </div>
@@ -192,13 +192,19 @@
         </div>
         <div id="iconmedia">
             <div class="hm" >
-                <img src="/img/rcti.png" style="width:70%;max-width:200px;text-align:center;"> 
+                <a href="https://www.rcti.tv/">
+                <img src="/img/rcti.png" style="width:70%;max-width:200px;"> 
+                </a>
             </div>
             <div class="hm">
+                <a href="http://www.netmedia.co.id/home">
                 <img src="/img/nett.png" style="width:70%;max-width:200px;">
+                </a>
             </div>
             <div class="hm">
+                <a href="https://www.trans7.co.id/">
                 <img src="/img/trans7.png" style="width:70%;max-width:200px;">
+                </a>
             </div>
         </div>
     </div>
@@ -210,17 +216,17 @@
                 <div class="row">
                     <div class="yap">
                         <a href="https://www.youtube.com/channel/UCviHmF9zS25B19n6lYarVJw">
-                            <img src="/img/youtube.png" style="width:120%;max-width:40px;">
+                            <img src="/img/youtube.png" style="width:120%;max-width:42px;">
                         </a>
                     </div>
                     <div class="yap">
                         <a href="https://www.facebook.com/Admin1.Ojesy">
-                            <img src="/img/facebook.png" style="width:100%;max-width:40px;">
+                            <img src="/img/facebook.png" style="width:100%;max-width:42px;">
                         </a>
                     </div>
                     <div class="yap">
                         <a href="https://www.instagram.com/syarihub.id/">
-                            <img src="/img/instagram.png" style="width:100%;max-width:40px;">
+                            <img src="/img/instagram.png" style="width:100%;max-width:42px;">
                         </a>
                     </div>
                 </div>
@@ -248,7 +254,7 @@
     </script>
     <script>
     //made by vipul mirajkar thevipulm.appspot.com
-var TxtType = function(el, toRotate, period) {
+    var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
         this.loopNum = 0;
