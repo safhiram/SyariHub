@@ -20,15 +20,12 @@
     </head>
     <body>
     <!--============================= Navbar =============================-->
-    <nav class="navbar navbar-expand-sm   navbar-light bg-light">
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#"><img src="/img/unnamed.png" style="width:26%; padding-left:15%;"> <span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-        </div>
-    </nav>
+<!-- Just an image -->
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" style="padding-left:5%;" href="#">
+    <img src="/img/unnamed.png" width="10%" height="10%" alt="">
+  </a>
+</nav>
  <!-- Slideshow container -->
 <div id="slideshow">
     <div class="slideshow">
@@ -47,8 +44,8 @@
         </div>
       
         <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
     </div>
 </div>
 
@@ -56,10 +53,10 @@
     <div id="pengenalan">
         <div class="row">
             <div class="col-sm-6" id="coba">
-                <b>SyariHub - Aplikasi Kebutuhan Syariah</b>
+                <b>SyariHub <br> Aplikasi Kebutuhan Syariah</b>
                 <br>
                 <p>
-                <a class="typewrite" data-period="2000" data-type='[ "  Berbagai layanan syariah untuk ukhuwah Islamiyah"]' style="color:black; text-decoration:none; font-family:'Lucas Sans'; font-size: 120%;">
+                <a class="typewrite" data-period="2000" data-type='[ "  Berbagai layanan syariah untuk ukhuwah Islamiyah"]' style="color:black; text-decoration:none; font-family:'Lucas Sans'; font-size: 100%;">
                 <span class="wrap"></span>
                 </a>
                 </p>
@@ -75,87 +72,98 @@
         <div id="tulisan">
             <b>Dengan Layanan Syari, Kebutuhan Muslim Terpenuhi</b>
         </div>
-        <div id="atas" class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8" >
-                <div class="row">
-                    <div class="col-sm-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4" ></div>
+                <div class="col-sm-4" >
+                    <div class="row" class="container-fluid">
+                        <div class="col-sm-3">
                         <a href="">
                             <figure>
-                                <img src="/img/ojek.png" style="width:180%;max-width:100px;">
+                                <img src="/img/ojek.png" style="width:90%;max-width:100px;">
+                                
                                 <figcaption style>Syari<br>Ride
                                 </figcaption>
                             </figure>
                         </a>
-                    </div>
-                    <div class="col-sm-2">
+                        </div>
+                        <div class="col-sm-3" >
                         <a href="">
                             <figure>
-                                <img src="/img/ojek-bln.png" style="width:180%;max-width:100px;">
-                                <figcaption>Syari<br>Ride<br>Bulanan</figcaption>
+                                <img src="/img/ojek-bln.png" style="width:90%;max-width:100px;">
+                                <figcaption style>Syari<br>Ride<br>Bulanan
+                                </figcaption>
                             </figure>
                         </a>
-                    </div>
-                    <div class="col-sm-2">
+                        </div>
+                        <div class="col-sm-3">
                         <a href="">
                             <figure>
-                                <img src="/img/nany.png" style="width:180%;max-width:100px;">
-                                <figcaption>Syari<br>Nany</figcaption>
+                                <img src="/img/nany.png" style="width:90%;max-width:100px;">
+                                <figcaption style>Syari<br>Nany
+                                </figcaption>
                             </figure>
                         </a>
-                    </div>
-                    <div class="col-sm-2">
+                        </div>
+                        <div class="col-sm-3" >
                         <a href="">
                             <figure>
-                                <img src="/img/catering.png" style="width:180%;max-width:100px;">
-                                <figcaption>Syari<br>Catering</figcaption>
+                                <img src="/img/ngaji.png" style="width:90%;max-width:100px;">
+                                <figcaption style>Syari<br>Ngaji
+                                </figcaption>
                             </figure>
                         </a>
+                        </div>
                     </div>
                 </div>
+                <div class="col-sm-4" ></div>
             </div>
-            <div class="col-sm-2"></div>          
         </div>
-        <br>
-        <div id="bawah" class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8">
-                <div class="row" id="coba">
-                <div class="col-sm-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4" ></div>
+                <div class="col-sm-4" >
+                    <div class="row" class="container-fluid">
+                        <div class="col-sm-3">
                         <a href="">
                             <figure>
-                                <img src="/img/ngaji.png" style="width:190%;max-width:100px;">
-                                <figcaption>Syari<br>Ngaji</figcaption>
+                                <img src="/img/catering.png" style="width:90%;max-width:100px;">
+                                <figcaption style>Syari<br>Catering
+                                </figcaption>
                             </figure>
                         </a>
-                </div>
-                <div class="col-sm-2">
-                    <a href="">
-                        <figure>
-                            <img src="/img/massage.png" style="width:190%;max-width:100px;">
-                            <figcaption>Syari<br>Massage</figcaption>
-                        </figure>
-                    </a>
-                </div>
-                <div class="col-sm-2">
+                        </div>
+                        <div class="col-sm-3" >
                         <a href="">
                             <figure>
-                                <img src="/img/store.png" style="width:190%;max-width:100px;">
-                                <figcaption>Syari<br>Store</figcaption>
+                                <img src="/img/massage.png" style="width:90%;max-width:100px;">
+                                <figcaption style>Syari<br>Massage
+                                </figcaption>
                             </figure>
                         </a>
-                </div>
-                <div class="col-sm-2">
+                        </div>
+                        <div class="col-sm-3">
                         <a href="">
                             <figure>
-                                <img src="/img/lifestyle.png" style="width:190%;max-width:100px;">
-                                <figcaption>Syari<br>LifeStyle</figcaption>
+                                <img src="/img/store.png" style="width:90%;max-width:100px;">
+                                <figcaption style>Syari<br>Store
+                                </figcaption>
                             </figure>
                         </a>
+                        </div>
+                        <div class="col-sm-3" >
+                        <a href="">
+                            <figure>
+                                <img src="/img/lifestyle.png" style="width:90%;max-width:100px;">
+                                <figcaption style>Syari<br>Lifestyle
+                                </figcaption>
+                            </figure>
+                        </a>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-sm-4" ></div>
             </div>
-            </div>
-            <div class="col-sm-2"></div>
         </div>
     </div>
     <div id="download">
@@ -164,7 +172,6 @@
                 <div id="tulisan">
                     <b>DOWNLOAD SEKARANG !</b>
                 </div>
-                <br>
                 <br>
                 <div id="icon_gogleplay">
                     <a href="https://play.google.com/store/apps/details?id=com.ojesy.ojesy&hl=en">
@@ -181,37 +188,46 @@
     <br>
     <div id="telah_diliput">
         <div id="tulisan">
-            <b>Telah Diliput Oleh :</b>
+            <b>Telah Diliput Oleh</b>
         </div>
-        <br><br>
-        <div id="icon_media" class="row" style="text-align:center;">
-            <div class="col-sm-4">
-                <a href="https://www.rcti.tv/">
-                    <img src="/img/rcti.png" style="width:70%;max-width:200px;">
-                </a>
-            </div> 
-            <div class="col-sm-4">
-                <a href="http://www.netmedia.co.id">
-                    <img src="/img/nett.png" style="width:70%;max-width:200px;">
-                </a>
+        <div id="iconmedia">
+            <div class="hm" >
+                <img src="/img/rcti.png" style="width:70%;max-width:200px;text-align:center;"> 
             </div>
-            <div class="col-sm-4">
-                <a href="https://www.trans7.co.id/">
-                    <img src="/img/trans7.png" style="width:70%;max-width:300px;">
-                </a>
-            </div>                
+            <div class="hm">
+                <img src="/img/nett.png" style="width:70%;max-width:200px;">
+            </div>
+            <div class="hm">
+                <img src="/img/trans7.png" style="width:70%;max-width:200px;">
+            </div>
         </div>
     </div>
-    <div id="footer">
-        <a href="https://www.youtube.com/channel/UCviHmF9zS25B19n6lYarVJw">
-            <img src="/img/youtube.png" style="width:9%;">
-         </a>
-         <a href="https://www.facebook.com/Admin1.Ojesy">
-            <img src="/img/facebook.png" style="width:7%;">
-         </a>
-         <a href="https://www.instagram.com/syarihub.id/">
-            <img src="/img/instagram.png" style="width:7%;">
-         </a>   
+    <div id="footer" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-5">
+            </div>
+            <div class="col-sm-2">
+                <div class="row">
+                    <div class="yap">
+                        <a href="https://www.youtube.com/channel/UCviHmF9zS25B19n6lYarVJw">
+                            <img src="/img/youtube.png" style="width:120%;max-width:40px;">
+                        </a>
+                    </div>
+                    <div class="yap">
+                        <a href="https://www.facebook.com/Admin1.Ojesy">
+                            <img src="/img/facebook.png" style="width:100%;max-width:40px;">
+                        </a>
+                    </div>
+                    <div class="yap">
+                        <a href="https://www.instagram.com/syarihub.id/">
+                            <img src="/img/instagram.png" style="width:100%;max-width:40px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5">
+            </div>
+        </div>
     </div>
     <script>
     var slideIndex = 0;

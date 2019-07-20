@@ -93,29 +93,30 @@ font-size: 50px;
     text-align: center;
 }
 #macam_layanan #tulisan{
-  padding-top: 3%; 
-  padding-bottom: 3%;
-  font-size: 30px;
+  padding:3%;
+  font-size: 180%;
 }
-#macam_layanan #atas {
-  padding-left:20%;
-}
-
-#macam_layanan #bawah {
-  padding-left: 20%;
+#macam_layanan .container-fluid
+{
+  font-family:'lucida sans';
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  text-decoration: none;
 }
 
 #download{
     padding:10%;
     padding-top:0%;
     padding-left: 15%;
+    text-align:center;
 }
 #download #download-1{
   padding-top: 6%;
 }
 #download #tulisan{
   font-family: traja;
-  font-size: 29px;
+  font-size: 150%;
+
 }
 #download #gambar{
   padding-right: 10%;
@@ -123,27 +124,41 @@ font-size: 50px;
 
 #telah_diliput #tulisan{
   font-family: 'Segoe UI';
-  font-size: 30px;
+  font-size: 180%;
   text-align: center;
 }
-#telah_diliput #icon_media{
-  padding-bottom:10%;
+#iconmedia{
+  padding-top : 5%;
+  padding-bottom:5%;
+}
+.hm {
+  width:32%;
+  display:inline-block;
+  text-align:center;
+}
+.yap {
+  width:33%;
+  display:inline-block;
+  text-align:center;
 }
 
 #footer{
-    background-image:url('/img/back.png');
-    padding: 5%;
-    padding-top: 10%;
-    padding-left: 40%;
-    background-repeat: no-repeat;
-    letter-spacing: 20px;
+    background-image:url('/img/back.png'); 
     background-size: 100%;
+    text-align:center;
+    padding:5%;
+    padding-top:7%;
+    padding-bottom:3%;
 }
 
 #coba{
   text-align: left;
   text-decoration: none;
   color:black;
+  font-size:70%;
+}
+#coba a{
+  height:200%;
 }
 
 figure{
@@ -151,3 +166,4 @@ figure{
   text-decoration: none;
   font-size:110%;
 }
+
