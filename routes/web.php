@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('mitra-pengendara', function () {
+    return view('mitra.pengendara');
+});
+Route::get('mitra-nanny', function () {
+    return view('mitra.nanny');
+});
+Route::get('mitra-mentor', function () {
+    return view('mitra.mentor');
+});
+Route::get('mitra-massage', function () {
+    return view('mitra.massage');
+});

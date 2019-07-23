@@ -22,15 +22,27 @@
     <!--============================= Navbar =============================-->
 <!-- Just an image -->
 <nav class="navbar navbar-expand-sm   navbar-light bg-light">
-        <img src="/img/unnamed.png" width="12%;" style="padding-left:8%;min-width:60px;margin-right:3%;">
+       <img src="/img/unnamed.png" width="12%;" style="padding-left:8%;min-width:60px;margin-right:3%;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Layanan <span class="sr-only">(current)</span></a>
+            <li class="nav-item dropdown dmenu">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Layanan
+                </a>
+                <div class="dropdown-menu sm-menu">
+                <a class="dropdown-item" href="#"><img src="/img/icon/ojek.png">   Syari Ride</a>
+                <a class="dropdown-item" href="#"><img src="/img/icon/ojek-bln.png">   Syari Ride Bulanan</a>
+                <a class="dropdown-item" href="#"><img src="/img/icon/nany.png">   Syari Nanny</a>
+                <a class="dropdown-item" href="#"><img src="/img/icon/ngaji.png">   Syari Ngaji</a>
+                <a class="dropdown-item" href="#"><img src="/img/icon/catering.png">   Syari Catering</a>
+                <a class="dropdown-item" href="#"><img src="/img/icon/massage.png">   Syari Massage</a>
+                <a class="dropdown-item" href="#"><img src="/img/icon/store.png">   Syari Store</a>
+                <a class="dropdown-item" href="#"><img src="/img/icon/lifestyle.png">   Syari Lifestyle</a>
+            </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Berita</a>
@@ -48,13 +60,13 @@
               Gabung SyariHub
             </a>
             <div class="dropdown-menu sm-menu">
-              <a class="dropdown-item" href="#">Pengendara</a>
-              <a class="dropdown-item" href="#">Nanny</a>
-              <a class="dropdown-item" href="#">Mentor Al-Quran</a>
-              <a class="dropdown-item" href="#">Massg</a>
+              <a class="dropdown-item" href="/mitra-pengendara"><img src="/img/icon/ojek.png">   Pengendara</a>
+              <a class="dropdown-item" href="/mitra-nanny"><img src="/img/icon/nany.png">   Nanny</a>
+              <a class="dropdown-item" href="/mitra-mentor"><img src="/img/icon/ngaji.png">   Mentor Al-Quran</a>
+              <a class="dropdown-item" href="/mitra-massage"><img src="/img/icon/massage.png">   Massage</a>
             </div>
           </li>
-          </ul>
+        </ul>
         </div>
 </nav>
  <!-- Slideshow container -->
