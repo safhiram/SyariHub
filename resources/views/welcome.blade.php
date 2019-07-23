@@ -21,10 +21,41 @@
     <body>
     <!--============================= Navbar =============================-->
 <!-- Just an image -->
-<nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" style="padding-left:5%;" href="#">
-    <img src="/img/unnamed.png" width="10%" height="10%" alt="">
-  </a>
+<nav class="navbar navbar-expand-sm   navbar-light bg-light">
+        <img src="/img/unnamed.png" width="12%;" style="padding-left:8%;min-width:60px;margin-right:3%;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Layanan <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Berita</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bantuan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tentang Kami</a>
+          </li>
+        </ul>
+        <ul class="navbar-right navbar-nav mr-4">
+          <li class="nav-item dropdown dmenu">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Gabung SyariHub
+            </a>
+            <div class="dropdown-menu sm-menu">
+              <a class="dropdown-item" href="#">Pengendara</a>
+              <a class="dropdown-item" href="#">Nanny</a>
+              <a class="dropdown-item" href="#">Mentor Al-Quran</a>
+              <a class="dropdown-item" href="#">Massg</a>
+            </div>
+          </li>
+          </ul>
+        </div>
 </nav>
  <!-- Slideshow container -->
 <div id="slideshow">
@@ -62,7 +93,7 @@
                 </p>
             </div>
             <div class="col-sm-6"> 
-                <iframe width="100%" height="150%" src="https://www.youtube.com/embed/CWjnJ1CRahQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                <iframe width="100%" height="150%" src="https://www.youtube.com/embed/alld44x9Fbc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
             </div>
         </div>
@@ -192,19 +223,13 @@
         </div>
         <div id="iconmedia">
             <div class="hm" >
-                <a href="https://www.rcti.tv/">
-                <img src="/img/rcti.png" style="width:70%;max-width:200px;"> 
-                </a>
+                <img src="/img/rcti.png" style="width:70%;max-width:200px;text-align:center;"> 
             </div>
             <div class="hm">
-                <a href="http://www.netmedia.co.id/home">
                 <img src="/img/nett.png" style="width:70%;max-width:200px;">
-                </a>
             </div>
             <div class="hm">
-                <a href="https://www.trans7.co.id/">
                 <img src="/img/trans7.png" style="width:70%;max-width:200px;">
-                </a>
             </div>
         </div>
     </div>
@@ -216,17 +241,17 @@
                 <div class="row">
                     <div class="yap">
                         <a href="https://www.youtube.com/channel/UCviHmF9zS25B19n6lYarVJw">
-                            <img src="/img/youtube.png" style="width:120%;max-width:42px;">
+                            <img src="/img/youtube.png" style="width:120%;max-width:40px;">
                         </a>
                     </div>
                     <div class="yap">
                         <a href="https://www.facebook.com/Admin1.Ojesy">
-                            <img src="/img/facebook.png" style="width:100%;max-width:42px;">
+                            <img src="/img/facebook.png" style="width:100%;max-width:40px;">
                         </a>
                     </div>
                     <div class="yap">
                         <a href="https://www.instagram.com/syarihub.id/">
-                            <img src="/img/instagram.png" style="width:100%;max-width:42px;">
+                            <img src="/img/instagram.png" style="width:100%;max-width:40px;">
                         </a>
                     </div>
                 </div>
@@ -238,6 +263,7 @@
     <script>
     var slideIndex = 0;
     showSlides();
+
     function showSlides() {
     var i;
     var slides = document.getElementsByClassName("mySlides");
@@ -253,7 +279,7 @@
     </script>
     <script>
     //made by vipul mirajkar thevipulm.appspot.com
-    var TxtType = function(el, toRotate, period) {
+var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
         this.loopNum = 0;
@@ -262,18 +288,24 @@
         this.tick();
         this.isDeleting = false;
     };
+
     TxtType.prototype.tick = function() {
         var i = this.loopNum % this.toRotate.length;
         var fullTxt = this.toRotate[i];
+
         if (this.isDeleting) {
         this.txt = fullTxt.substring(0, this.txt.length - 1);
         } else {
         this.txt = fullTxt.substring(0, this.txt.length + 1);
         }
+
         this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
         var that = this;
         var delta = 200 - Math.random() * 100;
+
         if (this.isDeleting) { delta /= 2; }
+
         if (!this.isDeleting && this.txt === fullTxt) {
         delta = this.period;
         this.isDeleting = true;
@@ -282,10 +314,12 @@
         this.loopNum++;
         delta = 500;
         }
+
         setTimeout(function() {
         that.tick();
         }, delta);
     };
+
     window.onload = function() {
         var elements = document.getElementsByClassName('typewrite');
         for (var i=0; i<elements.length; i++) {
@@ -301,6 +335,15 @@
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
     };
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function () {
+    $('.navbar-light .dmenu').hover(function () {
+            $(this).find('.sm-menu').first().stop(true, true).slideDown(150);
+        }, function () {
+            $(this).find('.sm-menu').first().stop(true, true).slideUp(105)
+        });
+    });
     </script>
     </body>
 </html>
