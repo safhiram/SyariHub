@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <!-- Styles -->
         <link rel="stylesheet" type="text/css" href="/css/welcome.css">
+        <link rel="stylesheet" type="text/css" href="/css/form.css">
         <!-- Boostrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -17,6 +18,7 @@
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
     </head>
     <body>
     <!--============================= Navbar =============================-->
@@ -71,7 +73,155 @@
 </nav>
 
 <!--Mulai Ngoding isi page di sini -->
+<main class="my-form">
+    <div class="cotainer">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header">Register Pengendara</div>
+                        <div class="card-body">
+                            <form name="my-form" onsubmit="return validform()" action="success.php" method="">
+                                <div class="form-group row">
+                                    <label for="nama_lengkap" class="col-md-4 col-form-label text-md-right">Nama Lengkap</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="nama_lengkap" class="form-control" name="nama_lengkap">
+                                    </div>
+                                </div>
 
+                                <div class="form-group row">
+                                    <label for="tanggal_lahir" class="col-md-4 col-form-label text-md-right">Tanggal Lahir</label>
+                                    <div class="col-md-6">
+                                        <input type="date" id="tanggal_lahir" class="form-control" name="tanggal_lahir">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="umur" class="col-md-4 col-form-label text-md-right">Umur</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="umur" class="form-control" name="umur">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="alamat_domisili" class="col-md-4 col-form-label text-md-right">Alamat Domisili</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="alamat-domisili" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="alamat_email" class="col-md-4 col-form-label text-md-right">Alamat Email</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="alamat_email" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="no_hp" class="col-md-4 col-form-label text-md-right">No. HP</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="no_hp" class="form-control" name="no_hp">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="no_ktp" class="col-md-4 col-form-label text-md-right">No. KTP</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="no_ktp" class="form-control" name="no_ktp">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="no_sim" class="col-md-4 col-form-label text-md-right">No. SIM</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="no_sim" class="form-control" name="no_sim">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="tgl_berlaku_sim" class="col-md-4 col-form-label text-md-right">SIM berlaku sampai kapan?</label>
+                                    <div class="col-md-6">
+                                        <input type="date" id="tgl_berlaku_sim" class="form-control" name="tgl_berlaku_sim">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="no_plat" class="col-md-4 col-form-label text-md-right">Nomer Plat Motor</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="no_plat" class="form-control" name="no_plat">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="tgl_berlaku_plat" class="col-md-4 col-form-label text-md-right">Plat Nomor berlaku sampai kapan?</label>
+                                    <div class="col-md-6">
+                                        <input type="date" id="tgl_berlaku_plat" class="form-control" name="tgl_berlaku_plat">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="tgl_berlaku_plat" class="col-md-4 col-form-label text-md-right">Bisa Menggunakan Whatsapp?</label>
+                                    <div class="col-md-6">
+                                        <input type="radio" id="tgl_berlaku_plat"  name="tgl_berlaku_plat"> Ya 
+                                        <input type="radio" id="tgl_berlaku_plat"  name="tgl_berlaku_plat"> Tidak 
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="tgl_berlaku_plat" class="col-md-4 col-form-label text-md-right">Aktivitas Perbulan</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="tgl_berlaku_plat" class="form-control" name="tgl_berlaku_plat">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="tgl_berlaku_plat" class="col-md-4 col-form-label text-md-right">Penghasilan perbulan</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="tgl_berlaku_plat" class="form-control" name="tgl_berlaku_plat">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="country" class="col-md-4 col-form-label text-md-right">	
+                                        Kota
+                                    </label>
+                                    <div class="col-md-6">
+                                        <select class="form-control" name="country" id="country">
+                                            <option value=""></option>
+                                            <option value="">Surabaya</option>
+                                            <option value="AR">Sidoarjo</option>
+                                            <option value="AU">Malang</option>
+                                            <option value="AT">Gresik</option>
+                                            <option value="BY">Madiun</option>
+                                            <option value="BE">Semarang</option>
+                                            <option value="BE">Yogyakarta</option>
+                                            <option value="BE">DKI Jakarta</option>
+                                            <option value="BE">Tangerang</option>
+                                            <option value="BE">Tangerang Selatan</option>
+                                            <option value="BE">Bogor</option>
+                                            <option value="BE">Depok</option>
+                                            <option value="BE">Makassar</option>
+                                            <option value="BE">Bandung</option>
+                                            <option value="BE">Solo</option>
+                                        </select>
+                                    </div>
+                                </div>
+     
+                                    <div class="col-md-6 offset-md-4">
+                                        <button type="submit" class="btn btn-primary">
+                                        Register
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<!--Selesai Isi Page -->
 <script type="text/javascript">
     $(document).ready(function () {
     $('.navbar-light .dmenu').hover(function () {
@@ -80,6 +230,39 @@
             $(this).find('.sm-menu').first().stop(true, true).slideUp(105)
         });
     });
-    </script>
+</script>
+<script>
+    function validform() {
+
+    var a = document.forms["my-form"]["full-name"].value;
+    var b = document.forms["my-form"]["email-address"].value;
+    var c = document.forms["my-form"]["username"].value;
+    var d = document.forms["my-form"]["permanent-address"].value;
+    var e = document.forms["my-form"]["nid-number"].value;
+
+    if (a==null || a=="")
+    {
+        alert("Please Enter Your Full Name");
+        return false;
+    }else if (b==null || b=="")
+    {
+        alert("Please Enter Your Email Address");
+        return false;
+    }else if (c==null || c=="")
+    {
+        alert("Please Enter Your Username");
+        return false;
+    }else if (d==null || d=="")
+    {
+        alert("Please Enter Your Permanent Address");
+        return false;
+    }else if (e==null || e=="")
+    {
+        alert("Please Enter Your NID Number");
+        return false;
+    }
+
+    }
+</script>
     </body>
 </html>
