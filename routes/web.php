@@ -26,3 +26,7 @@ Route::get('mitra-mentor', function () {
 Route::get('mitra-massage', function () {
     return view('mitra.massage');
 });
+Route::get('coba', function () {
+    return view('coba');
+});
+
