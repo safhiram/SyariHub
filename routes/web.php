@@ -19,13 +19,12 @@ Route::get('/', function () {
 Route::get('mitra-pengendara', 'PengendaraController@index');
 Route::post('mitra-pengendara', 'PengendaraController@store');
 
+Route::get('mitra-nanny', 'NannyController@index');
+Route::post('mitra-nanny', 'NannyController@store');
 
-Route::get('mitra-nanny', function () {
-    return view('mitra.nanny');
-});
-Route::get('mitra-mentor', function () {
-    return view('mitra.mentor');
-});
+Route::get('mitra-mentor', 'MentorController@index');
+Route::post('mitra-mentor', 'MentorController@store');
+
 Route::get('mitra-massage', function () {
     return view('mitra.massage');
 });
