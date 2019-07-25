@@ -14,9 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('mitra-pengendara', function () {
-    return view('mitra.pengendara');
-});
+
+
+Route::get('mitra-pengendara', 'PengendaraController@index');
+Route::post('mitra-pengendara', 'PengendaraController@store');
+
+
 Route::get('mitra-nanny', function () {
     return view('mitra.nanny');
 });

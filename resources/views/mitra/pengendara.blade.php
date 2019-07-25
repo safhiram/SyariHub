@@ -92,53 +92,54 @@
             </div>
         </div>
     </div>
-    <form role="form">
+    <form role="form" action="" method="post" autocomplete="off">
+        @csrf
         <div class="setup-content" id="step-1">
             <div class="col-xs-12">
                 <div class="col-sm-12">
                     <h3> Step 1</h3>
                     <div class="form-group">
-                                        <label for="country" class="control-label">	
+                                        <label for="kota" class="control-label">	
                                             Kota
                                         </label>
-                                            <select class="form-control" name="country" id="country">
-                                                <option value=""></option>
-                                                <option value="">Surabaya</option>
-                                                <option value="AR">Sidoarjo</option>
-                                                <option value="AU">Malang</option>
-                                                <option value="AT">Gresik</option>
-                                                <option value="BY">Madiun</option>
-                                                <option value="BE">Semarang</option>
-                                                <option value="BE">Yogyakarta</option>
-                                                <option value="BE">DKI Jakarta</option>
-                                                <option value="BE">Tangerang</option>
-                                                <option value="BE">Tangerang Selatan</option>
-                                                <option value="BE">Bogor</option>
-                                                <option value="BE">Depok</option>
-                                                <option value="BE">Makassar</option>
-                                                <option value="BE">Bandung</option>
-                                                <option value="BE">Solo</option>
+                                            <select class="form-control" name="kota" id="kota">
+                                                <option value="null"></option>
+                                                <option value="Surabaya">Surabaya</option>
+                                                <option value="Sidoarjo">Sidoarjo</option>
+                                                <option value="Malang">Malang</option>
+                                                <option value="Gresik">Gresik</option>
+                                                <option value="Madiun">Madiun</option>
+                                                <option value="Semarang">Semarang</option>
+                                                <option value="Yogyakarta">Yogyakarta</option>
+                                                <option value="DKI_Jakarta">DKI Jakarta</option>
+                                                <option value="Tangerang">Tangerang</option>
+                                                <option value="Tangerang_Selatan">Tangerang Selatan</option>
+                                                <option value="Bogor">Bogor</option>
+                                                <option value="Depok">Depok</option>
+                                                <option value="Makassar">Makassar</option>
+                                                <option value="Bandung">Bandung</option>
+                                                <option value="Solo">Solo</option>
                                             </select>
                                     </div>
                     <div class="form-group">
                         <label class="control-label">Mengapa Tertarik bergabung di SyariHub?</label>
-                        <input maxlength="100" type="text" required="required" class="form-control" placeholder="Alasan gabung di SyariHub" />
+                        <input maxlength="100" type="text" name="alasan" id="alasan" required="required" class="form-control" placeholder="Alasan gabung di SyariHub" />
                     </div>
                     <div class="form-group">
                         <label class="control-label">Darimana kamu mengetahui SyariHub Ojek?</label>
-                                            <select class="form-control" name="country" id="country">
-                                                <option value=""></option>
-                                                <option value="">Website</option>
-                                                <option value="AR">Media Cetak</option>
-                                                <option value="AU">Media Sosial</option>
-                                                <option value="AT">Teman</option>
-                                                <option value="BY">Sahabat Pengendara</option>
+                                            <select class="form-control" name="darimana" id="darimana">
+                                                <option value="null"></option>
+                                                <option value="Website">Website</option>
+                                                <option value="Media_Cetak">Media Cetak</option>
+                                                <option value="Media_Sosial">Media Sosial</option>
+                                                <option value="Teman">Teman</option>
+                                                <option value="Sahabat_Pengendara">Sahabat Pengendara</option>
                                             </select>
                     </div>
                     <div class="form-group">
                         <label class="control-label">Waktu yang dialokasikan untuk menjadi driver?</label><br>
-                        <input type="radio" id="tgl_berlaku_plat"  name="tgl_berlaku_plat">Full Time <br>
-                        <input type="radio" id="tgl_berlaku_plat"  name="tgl_berlaku_plat"> Part Time
+                        <input type="radio" id="jam_kerja"  name="jam_kerja" value="Full_Time">Full Time <br>
+                        <input type="radio" id="jam_kerja"  name="jam_kerja" value="Part_Time"> Part Time
                     </div>
                     <button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Next</button>
                 </div>
@@ -150,31 +151,31 @@
                     <h3> Step 2</h3>
                     <div class="form-group">
                         <label class="control-label">Nama Lengkap</label>
-                        <input maxlength="200" type="text" required="required" class="form-control" placeholder="Nama Lengkap" />
+                        <input maxlength="200" type="text" name="nama_lengkap" id="nama_lengkap" required="required" class="form-control" placeholder="Nama Lengkap" />
                     </div>
                     <div class="form-group">
                         <label class="control-label">Tanggal Lahir</label>
-                        <input maxlength="200" type="date" required="required" class="form-control" placeholder="Tanggal Lahir"  />
+                        <input maxlength="200" type="date" name="tanggal_lahir" id="tanggal_lahir" required="required" class="form-control" placeholder="Tanggal Lahir"  />
                     </div>
                     <div class="form-group">
                         <label class="control-label">Umur</label>
-                        <input maxlength="200" type="text" required="required" class="form-control" placeholder="Umur" />
+                        <input maxlength="200" type="text" name="umur" id="umur" required="required" class="form-control" placeholder="Umur" />
                     </div>
                     <div class="form-group">
                         <label class="control-label">Alamat Domisili</label>
-                        <input maxlength="200" type="text" required="required" class="form-control" placeholder="Alamat Domisili" />
+                        <input maxlength="200" type="text" name="alamat_domisili" id="alamat_domisili" required="required" class="form-control" placeholder="Alamat Domisili" />
                     </div>
                     <div class="form-group">
                         <label class="control-label">Alamat Email</label>
-                        <input maxlength="200" type="text" required="required" class="form-control" placeholder="Alamat Email" />
+                        <input maxlength="200" type="text" name="alamat_email" id="alamat_email required="required" class="form-control" placeholder="Alamat Email" />
                     </div>
                     <div class="form-group">
                         <label class="control-label">No. HP</label>
-                        <input maxlength="200" type="text" required="required" class="form-control" placeholder="No. HP" />
+                        <input maxlength="200" type="text" name="no_hp" id="no_hp" required="required" class="form-control" placeholder="No. HP" />
                     </div>
                     <div class="form-group">
                         <label class="control-label">No. KTP</label>
-                        <input maxlength="200" type="text" required="required" class="form-control" placeholder="No.KTP" />
+                        <input maxlength="200" type="text" name="no_ktp" id="no_ktp" required="required" class="form-control" placeholder="No.KTP" />
                     </div>
                     <button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Next</button>
                 </div>
@@ -186,40 +187,40 @@
                     <h3> Step 3</h3>
                     <div class="form-group">
                         <label class="control-label">No. SIM</label>
-                        <input maxlength="200" type="text" required="required" class="form-control" placeholder="No. SIM" />
+                        <input maxlength="200" type="text" name="no_sim" id="no_sim" required="required" class="form-control" placeholder="No. SIM" />
                     </div>
                     <div class="form-group">
                         <label class="control-label">SIM berlaku sampai kapan?</label>
-                        <input maxlength="200" type="date" required="required" class="form-control" placeholder="Tanggal Kadaluarsa SIM" />
+                        <input maxlength="200" type="date" name="tgl_berlaku_sim" id="tgl_berlaku_sim" required="required" class="form-control" placeholder="Tanggal Kadaluarsa SIM" />
                     </div>
                     <div class="form-group">
                         <label class="control-label">Nomor Plat Nomor</label>
-                        <input maxlength="200" type="text" required="required" class="form-control" placeholder="No. Plat" />
+                        <input maxlength="200" type="text" name="no_plat" id="no_plat" required="required" class="form-control" placeholder="No. Plat" />
                     </div>
                     <div class="form-group">
                         <label class="control-label">Plat Nomor berlaku sampai kapan?</label>
-                        <input maxlength="200" type="date" required="required" class="form-control" placeholder="Tanggal Kadaluarsa Plat Nomor" />
+                        <input maxlength="200" type="date" name="tgl_berlaku_plat" id="tgl_berlaku_plat" required="required" class="form-control" placeholder="Tanggal Kadaluarsa Plat Nomor" />
                     </div>
                     <div class="form-group">
                         <label class="control-label">Pengalaman berkendara</label>
-                        <input maxlength="200" type="text" required="required" class="form-control" placeholder="Pengalaman Berkendara" />
+                        <input maxlength="200" type="text" name="pengalaman" id="pengalaman" required="required" class="form-control" placeholder="Pengalaman Berkendara" />
                     </div>
                     <div class="form-group">
                         <label class="control-label">Nama Akun Medsos</label>
-                        <input maxlength="200" type="text" required="required" class="form-control" placeholder="Nama Akun Media Sosial" />
+                        <input maxlength="200" type="text" name="medsos" id="medsos" required="required" class="form-control" placeholder="Nama Akun Media Sosial" />
                     </div>
                     <div class="form-group">
                         <label class="control-label">Bisa menggunakan Whatsapp?</label><br>
-                        <input type="radio" id="tgl_berlaku_plat"  name="tgl_berlaku_plat">Ya <br>
-                        <input type="radio" id="tgl_berlaku_plat"  name="tgl_berlaku_plat">Tidak
+                        <input type="radio" id="bisa_whatsapp"  name="bisa_whatsapp" value="ya">Ya <br>
+                        <input type="radio" id="bisa_whatsapp"  name="bisa_whatsapp" value="tidak">Tidak
                     </div>
                     <div class="form-group">
                         <label class="control-label">Aktivitas saat ini</label>
-                        <input maxlength="200" type="text" required="required" class="form-control" placeholder="Aktivitas saat ini" />
+                        <input maxlength="200" type="text" name="aktivitas" id="aktivitas" required="required" class="form-control" placeholder="Aktivitas saat ini" />
                     </div>
                     <div class="form-group">
                         <label class="control-label">Penghasilan Perbulan</label>
-                        <input maxlength="200" type="text" required="required" class="form-control" placeholder="Penghasilan Perbulan" />
+                        <input maxlength="200" type="text" name="penghasilan_perbulan" id="penghasilan_perbulan" required="required" class="form-control" placeholder="Penghasilan Perbulan" />
                     </div>
 
                     </div>
