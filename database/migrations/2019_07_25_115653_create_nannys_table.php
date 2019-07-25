@@ -30,6 +30,9 @@ class CreateNannysTable extends Migration
             $table->string('penjelasan1');
             $table->string('penjelasan2');
             $table->string('penjelasan3');
+            $table->mediumText('foto_ktp')->nullable();
+            $table->mediumText('foto_diri')->nullable();
+            $table->mediumText('foto_ijazah')->nullable();
             $table->timestamp('created_at')->nullable();
             $table->timestamp('updated_at')->nullable();
         });
