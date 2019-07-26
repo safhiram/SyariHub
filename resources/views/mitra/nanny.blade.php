@@ -92,7 +92,7 @@
             </div>
         </div>
     </div>
-    <form role="form" action="" method="post" autocomplete="off">
+    <form role="form" action="" method="post" autocomplete="off" enctype="multipart/form-data">
         @csrf
         <div class="setup-content" id="step-1">
             <div class="col-xs-12">
@@ -176,15 +176,15 @@
                     </div>
                     <div class="form-group">
                         <label class="control-label">Coba jelaskan apa yang harus dilakukan untuk menerangkan anak usia 2 tahun yang menangis?</label>
-                        <input maxlength="20000" type="text" name="pertanyaan1" id="pertanyaan1" required="required" class="form-control" placeholder="Jawaban" />
+                        <input maxlength="20000" type="text" name="penjelasan1" id="penjelasan1" required="required" class="form-control" placeholder="Jawaban" />
                     </div>
                     <div class="form-group">
                         <label class="control-label">Coba jelaskan apa yang harus dilakukan jika anak lari dan terjatuh karena tersandung mainannya?</label>
-                        <input maxlength="20000" type="text" name="pertanyaan2" id="pertanyaan2" required="required" class="form-control" placeholder="Jawaban" />
+                        <input maxlength="20000" type="text" name="penjelasan2" id="penjelasan2" required="required" class="form-control" placeholder="Jawaban" />
                     </div>
                     <div class="form-group">
                         <label class="control-label">Coba jelaskan apa yang harus dilakukan jika anak tidak mau disuapi makanan?</label>
-                        <input maxlength="20000" type="text" name="pertanyaan3" id="pertanyaan3" required="required" class="form-control" placeholder="Jawaban" />
+                        <input maxlength="20000" type="text" name="penjelasan3" id="penjelasan3" required="required" class="form-control" placeholder="Jawaban" />
                     </div>
                     <button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Next</button>
                 </div>
@@ -199,21 +199,21 @@
                         <label for="file-upload" class="custom-file-upload1">
                             <i class="fa fa-cloud-upload"></i> Upload Foto KTP
                         </label>
-                        <input id="file-upload" type="file"/>
+                        <input name="foto_ktp" id="file-upload" type="file"/>
                     </div><br>
                     <div class="custom-file-upload">
                         <h5>Foto Diri</h5>
                         <label for="file-upload" class="custom-file-upload1">
                             <i class="fa fa-cloud-upload"></i> Upload Foto Diri
                         </label>
-                        <input id="file-upload" type="file"/>
+                        <input name="foto_diri" id="file-upload" type="file"/>
                     </div><br>
                     <div class="custom-file-upload">
                         <h5>Foto Ijazah atau Sertifikat yang mendukung</h5>
                         <label for="file-upload" class="custom-file-upload1">
                             <i class="fa fa-cloud-upload"></i> Upload Foto Ijazah atau Sertifikat yang mendukung
                         </label>
-                        <input id="file-upload" type="file"/>
+                        <input name="foto_ijazah" id="file-upload" type="file"/>
                     </div><br>
 
                     </div>

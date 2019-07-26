@@ -13,17 +13,26 @@ class CreateNannysTable extends Migration
      */
     public function up()
     {
-        Schema::create('nannys', function (Blueprint $table) {
+        Schema::create('nannies', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('nama_lengkap');
-            $table->string('no_whatsapp');
+            $table->string('tempat_lahir');
             $table->string('tanggal_lahir');
-            $table->string('alamat');
+            $table->string('no_ktp');
+            $table->string('no_whatsapp');
+            $table->string('alamat_ktp');
+            $table->string('alamat_domisili');
             $table->string('pendidikan');
             $table->string('khatam_AlQuran');
-            $table->string('jml_juz');
+            $table->string('hobi');
+            $table->string('jml_anak');
             $table->string('pengalaman');
-            $table->string('penjelasan');
+            $table->string('penjelasan1');
+            $table->string('penjelasan2');
+            $table->string('penjelasan3');
+            $table->string('foto_ktp');
+            $table->string('foto_diri');
+            $table->string('foto_ijazah');
             $table->timestamp('created_at')->nullable();
             $table->timestamp('updated_at')->nullable();
         });
