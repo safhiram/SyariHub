@@ -28,8 +28,6 @@ class NannyController extends Controller
         $nanny->penjelasan2=request('penjelasan2');
         $nanny->penjelasan3=request('penjelasan3');
 
-
-
         //upload foto ktp
         if($request->hasfile('foto_ktp'))
         {
