@@ -76,6 +76,10 @@
 <!--Mulai Ngoding isi page di sini -->
 <br>
 <div class="container">
+        <div id="tulisan">
+                <b>FORM PENDAFTARAN SYARIHUB RIDE</b>
+        </div>
+        <br>
     <div class="stepwizard">
         <div class="stepwizard-row setup-panel">
             <div class="stepwizard-step">
@@ -92,6 +96,7 @@
             </div>
         </div>
     </div>
+    
     <form role="form" action="" method="post" autocomplete="off">
         @csrf
         <div class="setup-content" id="step-1">
@@ -232,6 +237,7 @@
     </form>
 </div>
 <br><br><br>
+<div id="pertama">
 <div class="container-fluid">
     <div id="tulisan">
     <b>MENGAPA SYARIHUB RIDE?</b>
@@ -242,7 +248,7 @@
         </div>
         <div class="col-sm-2" id="keuntungan">
             <div>
-                <img src="/img/keuntungan/uang.png">
+                <img src="/img/duit.png">
             </div>
             <div>
                 <br>Menambah penghasilan sehari hari
@@ -250,7 +256,7 @@
         </div>
         <div class="col-sm-2" id="keuntungan">
             <div>
-                <img src="/img/keuntungan/uang.png">
+                <img src="/img/duit.png">
             </div>
             <div>
                 <br>Menambah penghasilan sehari hari
@@ -258,7 +264,7 @@
         </div>
         <div class="col-sm-2" id="keuntungan">
             <div>
-                <img src="/img/keuntungan/uang.png">
+                <img src="/img/duit.png">
             </div>
             <div>
                 <br>Menambah penghasilan sehari hari
@@ -266,7 +272,7 @@
         </div>
         <div class="col-sm-2" id="keuntungan">
             <div>
-                <img src="/img/keuntungan/uang.png">
+                <img src="/img/duit.png">
             </div>
             <div>
                 <br>Menambah penghasilan sehari hari
@@ -274,7 +280,7 @@
         </div>
         <div class="col-sm-2" id="keuntungan">
             <div>
-                <img src="/img/keuntungan/uang.png">
+                <img src="/img/duit.png">
             </div>
             <div>
                 <br>Menambah penghasilan sehari hari
@@ -299,7 +305,7 @@
                 <div class="cardheader" style="background-color:white;">
                 </div>
                 <div class="avatar">
-                    <a><img alt="" src="/img/testimoni/photo.png"></a>
+                    <a><img alt="" src="/img/profil.png"></a>
                 </div>
                 <div class="info">
                     <div class="title">
@@ -314,6 +320,7 @@
         </div>
     </div>
 </div>
+</div>
 <br><br>
 <div class="container-fluid">
     <div id="tulisan">
@@ -326,13 +333,11 @@
         <div class="col-sm-10">
             <div class="row">
                 <div class="col-sm-2" id="step">
-                Step 1
+                <h2>STEP 1</h2> 
+                <p>Isikan data anda di form</p> 
                 </div>
-                <div class="col-sm-6">
-                    <img width="100%" src="/img/cara_mendaftar/1.png">
-                </div>
-                <div class="col-sm-4" id="kata">
-                    Isikan data anda di form.
+                <div class="col-sm-6" id="stepp">
+                    <img width="100%" src="/img/form.png">
                 </div>
             </div>
         </div>
@@ -345,13 +350,11 @@
         <div class="col-sm-10">
             <div class="row">
                 <div class="col-sm-2" id="step">
-                Step 2
+                <h2>STEP 2</h2>
+                <p>Tunggu sampai anda dihubugi oleh pihak SyariHub</p>
                 </div>
-                <div class="col-sm-6">
-                    <img width="100%" src="/img/cara_mendaftar/2.png">
-                </div>
-                <div class="col-sm-4" id="kata">
-                    Tunggu sampai anda dihubugi oleh pihak SyariHub
+                <div class="col-sm-6" id="stepp">
+                        <img width="100%" src="/img/telfon.png">
                 </div>
             </div>
         </div>

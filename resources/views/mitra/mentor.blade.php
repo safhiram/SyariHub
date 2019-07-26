@@ -188,6 +188,132 @@
         </div>
     </form>
 </div>
+<br><br><br>
+<div id="pertama">
+<div class="container-fluid">
+    <div id="tulisan">
+    <b>MENGAPA SYARIHUB MENTOR AL-QURAN?</b>
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-2" id="keuntungan">
+            <div>
+                <img src="/img/duit.png">
+            </div>
+            <div>
+                <br>Menambah penghasilan sehari hari
+            </div>
+        </div>
+        <div class="col-sm-2" id="keuntungan">
+            <div>
+                <img src="/img/duit.png">
+            </div>
+            <div>
+                <br>Menambah penghasilan sehari hari
+            </div>
+        </div>
+        <div class="col-sm-2" id="keuntungan">
+            <div>
+                <img src="/img/duit.png">
+            </div>
+            <div>
+                <br>Menambah penghasilan sehari hari
+            </div>
+        </div>
+        <div class="col-sm-2" id="keuntungan">
+            <div>
+                <img src="/img/duit.png">
+            </div>
+            <div>
+                <br>Menambah penghasilan sehari hari
+            </div>
+        </div>
+        <div class="col-sm-2" id="keuntungan">
+            <div>
+                <img src="/img/duit.png">
+            </div>
+            <div>
+                <br>Menambah penghasilan sehari hari
+            </div>
+        </div>
+        <div class="col-sm-1">
+        </div>
+    </div>
+</div>
+<br><br><br>
+<div class="container">
+    <div id="tulisan">
+    <b>TESTIMONI MENTOR AL-QURAN</b>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-lg-3">
+        </div>
+		<div class="col-lg-6 col-sm-6">
+
+            <div class="card hovercard">
+                <div class="cardheader" style="background-color:white;">
+                </div>
+                <div class="avatar">
+                    <a><img alt="" src="/img/profil.png"></a>
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <a target="_blank" href="http://www.doweb.in/">Heni A. - Sidoarjo</a>
+                    </div>
+                    <div class="desc">Sejak bergabung menjadi Sahabat Penendara SyariHub Ride <br> saya mulai berhijab dan mengikuti pengajian rutin RT.</div>
+                    <div class="desc">Anak juga suka dengan perkembangan tersebut.</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+        </div>
+    </div>
+</div>
+</div>
+<br><br>
+<div class="container-fluid">
+    <div id="tulisan">
+        <b>CARA MENDAFTAR</b>
+    </div>
+    <br>
+    <div class="row" id="bor">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-10">
+            <div class="row">
+                <div class="col-sm-2" id="step">
+                <h2>STEP 1</h2> 
+                <p>Isikan data anda di form</p> 
+                </div>
+                <div class="col-sm-6" id="stepp">
+                    <img width="100%" src="/img/form.png">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-1">
+        </div>
+    </div>
+    <div class="row" id="bor">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-10">
+            <div class="row">
+                <div class="col-sm-2" id="step">
+                <h2>STEP 2</h2>
+                <p>Tunggu sampai anda dihubugi oleh pihak SyariHub</p>
+                </div>
+                <div class="col-sm-6" id="stepp">
+                        <img width="100%" src="/img/telfon.png">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-1">
+        </div>
+    </div>
+</div>
 <!--Selesai Isi Page -->
 <div id="footer" class="container-fluid">
         <div class="row">

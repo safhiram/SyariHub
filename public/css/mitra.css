@@ -1,7 +1,12 @@
+#pertama{
+    background-image: url('/img/coverbro.png');
+    background-size: cover;
+}
+
 #keuntungan{
 text-align:center;
 letter-spacing:1px;
-font-family: 'Courier New';
+font-family: 'Segoe UI';
 font-size: 20px;
 }
 #tulisan{
@@ -13,7 +18,7 @@ font-size: 20px;
 
 
 .card {
-    padding-top: 20px;
+    padding-top: 15px;
     margin: 10px 0 20px 0;
     background-color: rgba(214, 224, 226, 0.2);
     border-top-width: 0;
@@ -261,10 +266,17 @@ font-size: 20px;
 #step{
     font-family: 'Lucida Sans';
     font-size:30px;
+    padding-top: 10%;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    margin-left: 10%;
 }
+
+#stepp{
+    margin-left: 20%;
+}
+
 #bor{
-    border: solid #68CDF2 3px;
-    border-radius: 10%;
     margin :3%;
     padding:2%;
 }
