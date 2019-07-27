@@ -10,7 +10,7 @@ font-family: 'Segoe UI';
 font-size: 20px;
 }
 #tulisan{
-    font-size: 50px;
+    font-size: 260%;
     font-family: 'Courier New';
     text-align: center;
     word-spacing: 1px;

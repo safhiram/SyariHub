@@ -76,6 +76,9 @@
 <!--Mulai Ngoding isi page di sini -->
 <br>
 <div class="container">
+        <div id="tulisan">
+                <b>FORM PENDAFTARAN SYARIHUB MENTOR AL-QURAN</b>
+        </div><br>
     <div class="stepwizard">
         <div class="stepwizard-row setup-panel">
             <div class="stepwizard-step">
