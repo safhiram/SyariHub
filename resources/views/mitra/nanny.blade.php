@@ -197,26 +197,26 @@
             <div class="col-xs-12">
                 <div class="col-md-12">
                     <h3> Step 3</h3><br>
-                    <div class="custom-file-upload">
+                    <div >
                         <h5>Foto KTP</h5>
-                        <label for="file-upload" class="custom-file-upload1">
-                            <i class="fa fa-cloud-upload"></i> Upload Foto KTP
+                        <label >
+                             Upload Foto KTP
                         </label>
-                        <input name="foto_ktp" id="file-upload" type="file"/>
+                        <input name="foto_ktp" id="foto_ktp" type="file"/>
                     </div><br>
-                    <div class="custom-file-upload">
+                    <div >
                         <h5>Foto Diri</h5>
-                        <label for="file-upload" class="custom-file-upload1">
-                            <i class="fa fa-cloud-upload"></i> Upload Foto Diri
+                        <label >
+                            Upload Foto Diri
                         </label>
-                        <input name="foto_diri" id="file-upload" type="file"/>
+                        <input name="foto_diri" id="foto_diri" type="file"/>
                     </div><br>
-                    <div class="custom-file-upload">
+                    <div >
                         <h5>Foto Ijazah atau Sertifikat yang mendukung</h5>
-                        <label for="file-upload" class="custom-file-upload1">
-                            <i class="fa fa-cloud-upload"></i> Upload Foto Ijazah atau Sertifikat yang mendukung
+                        <label>
+                            Upload Foto Ijazah atau Sertifikat yang mendukung
                         </label>
-                        <input name="foto_ijazah" id="file-upload" type="file"/>
+                        <input name="foto_ijazah" id="foto_ijazah" type="file"/>
                     </div><br>
 
                     </div>
@@ -293,7 +293,7 @@
 		<div class="col-lg-6 col-sm-6">
 
             <div class="card hovercard">
-                <div class="cardheader" style="background-color:white;">
+                <div class="cardheader" >
                 </div>
                 <div class="avatar">
                     <a><img alt="" src="/img/profil.png"></a>

@@ -257,7 +257,7 @@
 		<div class="col-lg-6 col-sm-6">
 
             <div class="card hovercard">
-                <div class="cardheader" style="background-color:white;">
+                <div class="cardheader">
                 </div>
                 <div class="avatar">
                     <a><img alt="" src="/img/profil.png"></a>
