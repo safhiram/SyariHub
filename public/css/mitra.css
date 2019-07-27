@@ -3,6 +3,21 @@
     background-size: cover;
 }
 
+#kedua{
+    background-image: url('/img/cover2bro.png');
+    background-size: cover;
+}
+
+#ketiga{
+    background-image: url('/img/cover3bro.png');
+    background-size: cover;
+}
+
+#keempat{
+    background-image: url('/img/cover4bro.png');
+    background-size: cover;
+}
+
 #keuntungan{
 text-align:center;
 letter-spacing:1px;

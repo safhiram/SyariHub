@@ -70,7 +70,7 @@
         </div>
 </nav>
 <br><br><br>
-<div id="pertama">
+<div id="kedua">
 <div class="container-fluid">
     <div id="tulisan">
     <b>MENGAPA SYARIHUB RIDE?</b>

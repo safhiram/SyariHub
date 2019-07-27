@@ -192,7 +192,7 @@
     </form>
 </div>
 <br><br><br>
-<div id="pertama">
+<div id="ketiga">
 <div class="container-fluid">
     <div id="tulisan">
     <b>MENGAPA SYARIHUB MENTOR AL-QURAN?</b>
