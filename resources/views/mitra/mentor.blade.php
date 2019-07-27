@@ -185,7 +185,7 @@
                         <label class="control-label">Apakaha Anda bisa menjelaskan tentang aturan membaca Al-Quran dengan Tajwid?</label>
                         <input maxlength="1000" type="text" name="penjelasan" id="penjelasan" required="required" class="form-control" />
                     </div>
-                    <button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Next</button>
+                    <button class="btn btn-success btn-lg pull-right" type="submit">Finish!</button>
                 </div>
             </div>
         </div>

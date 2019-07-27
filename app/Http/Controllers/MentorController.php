@@ -21,5 +21,7 @@ class MentorController extends Controller
         $mentor->pengalaman=request('pengalaman');
         $mentor->penjelasan=request('penjelasan');
         $mentor->save();
+
+        return redirect()->back();
     }
 }

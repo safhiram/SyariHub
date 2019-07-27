@@ -43,5 +43,6 @@ class PengendaraController extends Controller
         $pengendara->penghasilan_perbulan=request('penghasilan_perbulan');
         $pengendara->save();
         
+        return redirect()->back();
     }
 }

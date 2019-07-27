@@ -199,23 +199,14 @@
                     <h3> Step 3</h3><br>
                     <div >
                         <h5>Foto KTP</h5>
-                        <label >
-                             Upload Foto KTP
-                        </label>
                         <input name="foto_ktp" id="foto_ktp" type="file"/>
                     </div><br>
                     <div >
                         <h5>Foto Diri</h5>
-                        <label >
-                            Upload Foto Diri
-                        </label>
                         <input name="foto_diri" id="foto_diri" type="file"/>
                     </div><br>
                     <div >
                         <h5>Foto Ijazah atau Sertifikat yang mendukung</h5>
-                        <label>
-                            Upload Foto Ijazah atau Sertifikat yang mendukung
-                        </label>
                         <input name="foto_ijazah" id="foto_ijazah" type="file"/>
                     </div><br>
 
