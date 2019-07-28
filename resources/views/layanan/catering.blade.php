@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <!-- Styles -->
         <link rel="stylesheet" type="text/css" href="/css/welcome.css">
+        <link rel="stylesheet" type="text/css" href="/css/layanan.css">
         <!-- Boostrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
@@ -68,7 +69,17 @@
                 </div>
         </nav>
         <!-- Mulai Ngoding -->
-
+        <div class="container-fluid" id="gambar_awal">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div id="judul"></div>
+                    <div id="isi"></div>
+                    
+                </div>
+                <div class="col-sm-6">
+                </div>
+            </div>
+        </div>
         <!-- Selesai Ngoding -->
         <script type="text/javascript">
             $(document).ready(function () {
