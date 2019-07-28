@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
+//untuk mitra
 Route::get('mitra-pengendara', 'PengendaraController@index');
 Route::post('mitra-pengendara', 'PengendaraController@store');
 
@@ -25,9 +25,40 @@ Route::post('mitra-nanny', 'NannyController@store');
 Route::get('mitra-mentor', 'MentorController@index');
 Route::post('mitra-mentor', 'MentorController@store');
 
-Route::get('mitra-massage', function () {
-    return view('mitra.massage');
+Route::get('mitra-massage', 'MassageController@index');
+Route::post('mitra-massage', 'MassageController@store');
+
+//untuk per-layanan
+Route::get('ride', function () {
+    return view('layanan.ride');
 });
+Route::get('ride-bulanan', function () {
+    return view('layanan.ride-bulanan');
+});
+Route::get('nanny', function () {
+    return view('layanan.nanny');
+});
+Route::get('massage', function () {
+    return view('layanan.massage');
+});
+Route::get('ngaji', function () {
+    return view('layanan.ngaji');
+});
+Route::get('lifestyle', function () {
+    return view('layanan.lifestyle');
+});
+Route::get('catering', function () {
+    return view('layanan.catering');
+});
+Route::get('store', function () {
+    return view('layanan.store');
+});
+
+//untuk tentang kami
+Route::get('tentang-kami', function () {
+    return view('layanan.tentang-kami');
+});
+
 Route::get('coba', function () {
     return view('coba');
 });
