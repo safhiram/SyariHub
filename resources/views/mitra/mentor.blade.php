@@ -54,9 +54,6 @@
               <a class="nav-link" href="#">Berita</a>
             </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Bantuan</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="/tentang-kami">Tentang Kami</a>
           </li>
         </ul>
