@@ -196,60 +196,44 @@
     <div id="tulisan">
     <b>MENGAPA SYARIHUB MENTOR AL-QURAN?</b>
     </div>
-    <br><br>
+    <br><br><br>
     <div class="row">
         <div class="col-sm-1">
         </div>
-        <div class="col-sm-2" id="keuntungan">
+        <div class="col-sm-3" id="keuntungan">
             <div>
-                <img src="/img/duit.png">
+                <img src="/img/syarat.png">
             </div>
             <div>
-                <br>Menambah penghasilan sehari hari
-            </div>
-        </div>
-        <div class="col-sm-2" id="keuntungan">
-            <div>
-                <img src="/img/duit.png">
-            </div>
-            <div>
-                <br>Menambah penghasilan sehari hari
+                <br>Persyaratan Mudah
             </div>
         </div>
-        <div class="col-sm-2" id="keuntungan">
+        <div class="col-sm-3" id="keuntungan">
             <div>
-                <img src="/img/duit.png">
+                <img src="/img/time.png">
             </div>
             <div>
-                <br>Menambah penghasilan sehari hari
-            </div>
-        </div>
-        <div class="col-sm-2" id="keuntungan">
-            <div>
-                <img src="/img/duit.png">
-            </div>
-            <div>
-                <br>Menambah penghasilan sehari hari
+                <br>Jam Kerja Fleksibel
             </div>
         </div>
-        <div class="col-sm-2" id="keuntungan">
+        <div class="col-sm-3" id="keuntungan">
             <div>
                 <img src="/img/duit.png">
             </div>
             <div>
-                <br>Menambah penghasilan sehari hari
+                <br>Penghasilan Berkah
             </div>
         </div>
         <div class="col-sm-1">
         </div>
     </div>
 </div>
-<br><br><br>
+<br><br><br><br>
 <div class="container">
     <div id="tulisan">
     <b>TESTIMONI MENTOR AL-QURAN</b>
     </div>
-    <br>
+    <br><br>
     <div class="row">
         <div class="col-lg-3">
         </div>

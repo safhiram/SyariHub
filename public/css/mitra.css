@@ -1,16 +1,19 @@
 #pertama{
     background-image: url('/img/coverbro.png');
     background-size: cover;
+    margin-bottom: 3%;
 }
 
 #kedua{
     background-image: url('/img/cover2bro.png');
     background-size: cover;
+    margin-bottom: 3%;
 }
 
 #ketiga{
     background-image: url('/img/cover3bro.png');
     background-size: cover;
+    margin-bottom: 3%;
 }
 
 #keempat{
