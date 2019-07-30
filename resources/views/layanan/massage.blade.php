@@ -30,6 +30,9 @@
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
                     <li class="nav-item dropdown dmenu">
                         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                         Layanan
@@ -61,7 +64,6 @@
                     <a class="dropdown-item" href="/mitra-pengendara"><img src="/img/icon/ojek.png">   Pengendara</a>
                     <a class="dropdown-item" href="/mitra-nanny"><img src="/img/icon/nany.png">   Nanny</a>
                     <a class="dropdown-item" href="/mitra-mentor"><img src="/img/icon/ngaji.png">   Mentor Al-Quran</a>
-                    <a class="dropdown-item" href="/mitra-massage"><img src="/img/icon/massage.png">   Massage</a>
                     </div>
                 </li>
                 </ul>
