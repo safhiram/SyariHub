@@ -51,7 +51,7 @@ return [
 
             'database' => 'syarihub',
             'username' => 'root',
-            'password' => '',
+            'password' => 'Masyarakat123',
 
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
