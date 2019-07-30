@@ -56,7 +56,7 @@ Route::get('store', function () {
 
 //untuk tentang kami
 Route::get('tentang-kami', function () {
-    return view('layanan.tentang-kami');
+    return view('tentang-kami');
 });
 
 Route::get('coba', function () {

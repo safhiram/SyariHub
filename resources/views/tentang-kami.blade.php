@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <!-- Styles -->
         <link rel="stylesheet" type="text/css" href="/css/welcome.css">
+        <link rel="stylesheet" type="text/css" href="/css/tentang_kami.css">
         <!-- Boostrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
@@ -52,7 +53,7 @@
                     <a class="nav-link" href="#">Berita</a>
                     </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tentang Kami</a>
+                    <a class="nav-link" href="/tentang-kami">Tentang Kami</a>
                 </li>
                 </ul>
                 <ul class="navbar-right navbar-nav mr-4">
@@ -70,8 +71,81 @@
                 </div>
         </nav>
         <!-- Mulai Ngoding -->
-
+        <div class="container-fluid"id="boxisi">
+                    <div id=judul>
+                        <b>Syarihub</b>
+                    </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div id=isi><br>
+                        Syarihub merupakan jawaban bagi keluarga muslim yang khawatir siapa yang akan mengantarkan anaknya ke sekolah saat orang tua bekerja.<br>
+                        Jawaban bagi keluarga muslim yang resah siapa yang akan menjaga anaknya dirumah saat Ibu bekerja<br>
+                        Jawaban bagi keluarga muslim yang takut keluarganya tak mendapatkan energi yang cukup di pagi hari.<br>
+                        Dan berbagai macam kebutuha layanan nantinya yang akan hadir <br>
+                        Visi Syarihub adalah menjadi jawaban atas persoalan kebutuhan Umat Muslim.
+                    </div>
+                </div>
+                <div class="col-sm-1">
+                   <br>
+                </div>
+                <div class="col-sm-5">
+                    <img src="/img/tentang_kami/driver.png" width="100%">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid"id="boxisi2">
+            <div class="row">
+                <div class="col-sm-6"></div>
+                <div class="col-sm-6"><div id=judul>
+                        <b>Sejarah SyariHub</b>
+                    </div></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5">
+                    <br>
+                    <img src="/img/tentang_kami/evilita.png" width="100%">
+                </div>
+                <div class="col-sm-1">
+                   <br>
+                </div>
+                <div class="col-sm-6">
+                    <div id=isi><br>
+                        Sadarkah kita bahwa banyak wanita yang telah menjadi korban pelecehan seksual di transportasi umum?<br><br>
+                        Pedulikah kita bahwa ada Muslimah yang ingin menjaga jarak dengan yang bukan mahromnya saat beraktivitas diluar rumah? <br><br>
+                        Berdasarkan kekhawatiran tersebut Evilita Adriani memulai layanan Ojek Syari atau Ojesy, dengan telah memberdayakan 1000 Muslimah sebagai pengendaranya yang fokus melayani wanita dan anak, dan telah melayani lebih dari 80000 perjalanan dengan aman.<br><br>
+                        Evilita Adriani melihat realitas bahwa tidak hanya Muslimah yang ingin dilayani khusus sesuai dengan Syariat Islam, Muslimah pada akhirnya akan mengemban tanggung jawab sebagai Ummi atau Ibu yang harus merawat dan membesarkan anaknya lalu mempersiapkan segala kebutuhan suaminya. Sederhanakan itu? Tentu tidak. Oleh karena itu SyariHun merupakan sebuah jawaban.<br>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Selesai Ngoding -->
+        <div id="footer" class="container-fluid">
+            <div class="row">
+                <div class="col-sm-5">
+                </div>
+                <div class="col-sm-2">
+                    <div class="row">
+                        <div class="yap">
+                            <a href="https://www.youtube.com/channel/UCviHmF9zS25B19n6lYarVJw">
+                                <img src="/img/youtube.png" style="width:120%;max-width:40px;">
+                            </a>
+                        </div>
+                        <div class="yap">
+                            <a href="https://www.facebook.com/Admin1.Ojesy">
+                                <img src="/img/facebook.png" style="width:100%;max-width:40px;">
+                            </a>
+                        </div>
+                        <div class="yap">
+                            <a href="https://www.instagram.com/syarihub.id/">
+                                <img src="/img/instagram.png" style="width:100%;max-width:40px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                </div>
+            </div>
+        </div>
         <script type="text/javascript">
             $(document).ready(function () {
             $('.navbar-light .dmenu').hover(function () {

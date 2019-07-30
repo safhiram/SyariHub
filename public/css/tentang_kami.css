@@ -1,0 +1,20 @@
+#boxisi{
+    padding:5%;
+}
+#judul{
+    font-size:280%;
+    font-family: 'Courier New';
+    letter-spacing: 1px;
+}
+#isi{
+    font-size:120%;
+    text-align:justify;
+    font-family: Cambria;
+}
+#boxisi img{
+    padding-left:10%;
+    padding-right:10%;
+}
+#boxisi2{
+    padding:5%;
+}

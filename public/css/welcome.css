@@ -1,8 +1,10 @@
 .social-part .fa{
   padding-right:20px;
+  font-family: "MaisonNeue-Book",sans-serif;
 }
 ul li a{
   margin-right: 20px;
+  font-family: "MaisonNeue-Book",sans-serif;
 }
 
 /* Hide the images by default */

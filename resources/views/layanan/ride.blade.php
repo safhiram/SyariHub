@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="https://bilba.go-jek.com/v4/css/gojek/main.css">
         <!-- Javascript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -52,7 +53,7 @@
                     <a class="nav-link" href="#">Berita</a>
                     </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tentang Kami</a>
+                    <a class="nav-link" href="/tentang-kami">Tentang Kami</a>
                 </li>
                 </ul>
                 <ul class="navbar-right navbar-nav mr-4">
@@ -64,14 +65,69 @@
                     <a class="dropdown-item" href="/mitra-pengendara"><img src="/img/icon/ojek.png">   Pengendara</a>
                     <a class="dropdown-item" href="/mitra-nanny"><img src="/img/icon/nany.png">   Nanny</a>
                     <a class="dropdown-item" href="/mitra-mentor"><img src="/img/icon/ngaji.png">   Mentor Al-Quran</a>
-                    <a class="dropdown-item" href="/mitra-massage"><img src="/img/icon/massage.png">   Massage</a>
                     </div>
                 </li>
                 </ul>
                 </div>
         </nav>
         <!-- Mulai Ngoding -->
+        <section class="c-section">
+            <div class="c-hero c-hero--banner-full c-hero--font-2">
+                <div class="row js-slider-both" data-slider-desktop="true,false,1,true,true,true"
+                    data-slider-mobile="true,false,1,true,true,true">
+                    
+                    
+                    <div class="col-12">
+                        <div class="c-hero--banner-full__wrapper container-fluid">
+                            <picture> 
+                            <source src="/img/header_layanan/ride1.png" srcset="/img/header_layanan/ride1.png 400w, /img/header_layanan/ride1.png 800w, /img/header_layanan/ride1.png 3000w" media="(min-width: 769px)" alt="Syarihub-RIDE" type="image/webp">
+                            <source src="/img/header_layanan/ride2.png" srcset="/img/header_layanan/ride2.png 400w, /img/header_layanan/ride2.png 800w, /img/header_layanan/ride2.png 3000w" media="(min-width: 769px)" alt="Syarihub-RIDE" type="image/jpeg">
+                            <img src="/img/header_layanan/ride1.png" srcset="/img/header_layanan/ride1.png 400w, /img/header_layanan/ride1.png 800w, /img/header_layanan/ride1.png 3000w"alt="Syarihub-RIDE" type="image/webp">
+                            <img src="/img/header_layanan/ride2.png" srcset="/img/header_layanan/ride2.png 400w, /img/header_layanan/ride2.png 800w, /img/header_layanan/ride2.png 3000w" alt="Syarihub-RIDE" type="image/jpeg">
+                            </picture>
 
+
+                            <div class="container">
+                                <div class="c-hero--banner-full__content u-text-align__center--mobile u-text-align__center--tablet">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <h1>SyariHub-RIDE</h1>
+                                            
+                                            <p style="color:grey;font-family:'Lucida Sans';font-size: 120%;">
+                                            <strong> Syarihub menyediakan layanan <br>untuk Anda para wanita dan anak <br>untuk mendapat fasilitas antar <br>jemput yang Aman dan Nyaman</strong>
+                                            </p>      
+                                            <div class="c-hero--banner-full__content__action mt-2 mt-md-4">
+                                                <a href="javascript:;">
+                                                    <button type="button" class="js-show-popup"
+                                                        data-id="content-video-hero-2">
+                                                        Lihat Lebih
+                                                        
+                                                    </button>
+                                                </a>
+                                            </div>
+
+                                                <div class="u-hide--all" id="content-video-hero-2">
+                                                    <div class="embed-responsive embed-responsive-21by9">
+                                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/viUwhsB00i8?autoplay=1&amp;enablejsapi=1&amp;rel=0?rel=0"
+                                                            frameborder="0"
+                                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                            allowfullscreen>
+                                                        </iframe>
+                                                    </div>
+                                                </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
         <!-- Selesai Ngoding -->
         <script type="text/javascript">
             $(document).ready(function () {

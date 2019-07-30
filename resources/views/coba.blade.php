@@ -7,12 +7,13 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
     <link rel="stylesheet" href="https://bilba.go-jek.com/v4/css/gojek/main.css">
     <title>Document</title>
     
 </head>
 <body>
-
+    
 <section class="c-section">
     <div class="c-hero c-hero--banner-full c-hero--font-2">
         <div class="row js-slider-both" data-slider-desktop="true,false,1,true,true,true"
