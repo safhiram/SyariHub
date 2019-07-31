@@ -73,16 +73,16 @@
         <!-- Mulai Ngoding -->
         <div class="container-fluid"id="boxisi">
                     <div id=judul>
-                        <b>Syarihub</b>
+                        <b>Penolong Keluarga Muslim</b>
                     </div>
             <div class="row">
                 <div class="col-sm-6">
                     <div id=isi><br>
                         Syarihub merupakan jawaban bagi keluarga muslim yang khawatir siapa yang akan mengantarkan anaknya ke sekolah saat orang tua bekerja.<br>
-                        Jawaban bagi keluarga muslim yang resah siapa yang akan menjaga anaknya dirumah saat Ibu bekerja<br>
-                        Jawaban bagi keluarga muslim yang takut keluarganya tak mendapatkan energi yang cukup di pagi hari.<br>
-                        Dan berbagai macam kebutuha layanan nantinya yang akan hadir <br>
-                        Visi Syarihub adalah menjadi jawaban atas persoalan kebutuhan Umat Muslim.
+                        Jawaban bagi keluarga muslim yang resah siapa yang akan menjaga anaknya dirumah saat Ibu bekerja.<br>
+                        Jawaban bagi keluarga muslim yang takut keluarganya tak mendapatkan energi yang cukup di pagi hari.<br><br>               
+                        SyariHub adalah tempat bertemunya kebutuhan dan pemenuhan gaya hidup berlandaskan Syariat Islam. SyariHub akan terus berkembang, mengiringi para wanita dan keluarga pada umumnya. Itulah mengapa SyariHub adalah keluarga. Keluarga besar untuk nilai dan cita-cita yang lebih besar.<br><br>
+                        Visi Syarihub adalah menjadi jawaban atas persoalan kebutuhan Umat Muslim.<br>
                     </div>
                 </div>
                 <div class="col-sm-1">
@@ -113,11 +113,32 @@
                         Sadarkah kita bahwa banyak wanita yang telah menjadi korban pelecehan seksual di transportasi umum?<br><br>
                         Pedulikah kita bahwa ada Muslimah yang ingin menjaga jarak dengan yang bukan mahromnya saat beraktivitas diluar rumah? <br><br>
                         Berdasarkan kekhawatiran tersebut Evilita Adriani memulai layanan Ojek Syari atau Ojesy, dengan telah memberdayakan 1000 Muslimah sebagai pengendaranya yang fokus melayani wanita dan anak, dan telah melayani lebih dari 80000 perjalanan dengan aman.<br><br>
-                        Evilita Adriani melihat realitas bahwa tidak hanya Muslimah yang ingin dilayani khusus sesuai dengan Syariat Islam, Muslimah pada akhirnya akan mengemban tanggung jawab sebagai Ummi atau Ibu yang harus merawat dan membesarkan anaknya lalu mempersiapkan segala kebutuhan suaminya. Sederhanakan itu? Tentu tidak. Oleh karena itu SyariHun merupakan sebuah jawaban.<br>
+                        SyariHub adalah transformasi dari Ojek Syari Indonesia yang didirikan pada 10 Maret 2015 oleh Evilita Adriani dan Reza Zamir. Karena berkembangnya gaya hidup di kota-kota metropolitan selalu berkembang, SyariHub tertantang untuk melayani semakin banyak kebutuhannya agar tetap sejalan dengan nilai-nilai Syar'i.<br><br>
+                        Saat ini juga tersedia layanan ojek langganan atau antar jemput, catering subuh, pengasuhan anak, mentor ngaji, dan akan ada masih banyak yang lainnya.<br>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="container-fluid"id="boxisi">
+            <div id=judul>
+                <b>Syari Mitra</b>
+            </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div id=isi><br>
+                SyariHub membuka lowongan seluas-luasnya untuk para wanita dan ibu menjadi mitra.<br>
+                Baik menjadi Sahabat Pengendara untuk Syari Ride, mitra dapur untuk Syari Catering, Nanny untuk Syari Nanny, maupun mentor tahsin dan tahfidz untuk Syari Mentor.<br>
+                Insyaallah penghasilan dari menjadi mitra selalu berkah karena diiringi keingianan untuk selalu beramal sholeh dan terhindar dari dosa tidak menjalankan SyariatNya.<br>
+            </div>
+        </div>
+        <div class="col-sm-1">
+           <br>
+        </div>
+        <div class="col-sm-5">
+            <img src="/img/mitr.png" width="100%">
+        </div>
+    </div>
+</div>
         <!-- Selesai Ngoding -->
         <div id="footer" class="container-fluid">
             <div class="row">
