@@ -94,14 +94,14 @@
                                             <div class="col-12 col-md-6">
                                                 <h1>SyariHub<br>Catering</h1>
                                                 
-                                                <p style="color:grey;font-family:'Lucida Sans';font-size: 120%;">
-                                                <strong> Syarihub menyediakan layanan <br>untuk Anda yang ingin memesan <br>menu catering dan diantar ke rumah.</strong>
+                                                <p style="color:white;font-family:'Times New Rowman';font-size: 105%;">
+                                                <strong>Untuk membantu bunda menyiapkan sarapan untuk<br>anggota keluarga, SyariHub menawarkan Syari Catering<br>yang akan mulai diantarkan selepas subuh. </strong>
                                                 </p>      
                                                 <div class="c-hero--banner-full__content__action mt-2 mt-md-4">
-                                                    <a href="javascript:;">
+                                                    <a href="https://play.google.com/store/apps/details?id=com.ojesy.ojesy&hl=en">
                                                         <button type="button" class="js-show-popup"
                                                             data-id="content-video-hero-2">
-                                                            Lihat Lebih
+                                                            DOWNLOAD SEKARANG
                                                             
                                                         </button>
                                                     </a>
@@ -130,59 +130,43 @@
         </section>
         <div class="container-fluid" id="satu">
             <div id="tulisan">
-            <b>MENGAPA SYARIHUB RIDE?</b>
+            <b>MENGAPA SYARIHUB CATERING?</b>
             </div>
             <br><br>
             <div class="row">
                 <div class="col-sm-1">
                 </div>
-                <div class="col-sm-2" id="keuntungan">
+                <div class="col-sm-3" id="keuntungan">
                     <div>
                         <img src="/img/duit.png">
                     </div>
                     <div>
-                        <br>Menambah penghasilan sehari hari
+                        <br>Tarif Murah
                     </div>
                 </div>
-                <div class="col-sm-2" id="keuntungan">
+                <div class="col-sm-3" id="keuntungan">
                     <div>
-                        <img src="/img/duit.png">
+                        <img src="/img/meeting.png">
                     </div>
                     <div>
-                        <br>Menambah penghasilan sehari hari
-                    </div>
-                </div>
-                <div class="col-sm-2" id="keuntungan">
-                    <div>
-                        <img src="/img/duit.png">
-                    </div>
-                    <div>
-                        <br>Menambah penghasilan sehari hari
+                        <br>Untuk Acara Apapun
                     </div>
                 </div>
-                <div class="col-sm-2" id="keuntungan">
+                <div class="col-sm-3" id="keuntungan">
                     <div>
-                        <img src="/img/duit.png">
+                        <img src="/img/time.png">
                     </div>
                     <div>
-                        <br>Menambah penghasilan sehari hari
-                    </div>
-                </div>
-                <div class="col-sm-2" id="keuntungan">
-                    <div>
-                        <img src="/img/duit.png">
-                    </div>
-                    <div>
-                        <br>Menambah penghasilan sehari hari
+                        <br>Pengantaran Fleksibel
                     </div>
                 </div>
                 <div class="col-sm-1">
                 </div>
-            </div>  
+            </div>    
         </div><br><br><br>
         <div class="container" id="dua">
             <div id="tulisan">
-            <b>TESTIMONI CUSTOMER RIDE</b>
+            <b>TESTIMONI CUSTOMER CATERING</b>
             </div>
             <br>
             <div class="row">
@@ -211,7 +195,7 @@
         </div><br><br><br>
         <div class="container" id="tiga">
             <div id="tulisan">
-            <b>CARA PAKAI SYARIHUB-RIDE</b>
+            <b>CARA PAKAI SYARIHUB-CATERING</b>
             </div>
             
             <div class="section" id="carousel">
@@ -262,6 +246,7 @@
                 </div>
             </div>
     </div>
+    <br><br>
         <!-- Selesai Ngoding -->
         <div id="footer" class="container-fluid">
         <div class="row">

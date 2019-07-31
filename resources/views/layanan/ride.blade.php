@@ -94,14 +94,14 @@
                                             <div class="col-12 col-md-6">
                                                 <h1>SyariHub-RIDE</h1>
                                                 
-                                                <p style="color:grey;font-family:'Lucida Sans';font-size: 120%;">
-                                                <strong> Syarihub menyediakan layanan <br>untuk Anda para wanita dan anak <br>untuk mendapat fasilitas antar <br>jemput yang Aman dan Nyaman</strong>
+                                                <p style="color:white;font-family:'Times New Rowman';font-size: 105%;">
+                                                <strong>Layanan ojek reguler oleh SyariHub.<br>Khusus untuk mengantar wanita dan anak-anak.<br>Dengan tarif yang dapat bersaing dengan ojek konvensional.<br>SyariHub memberikan kenyamanan berkendara<br>bersama Sahabat Pengendara perempuan.</strong>
                                                 </p>      
                                                 <div class="c-hero--banner-full__content__action mt-2 mt-md-4">
-                                                    <a href="javascript:;">
+                                                    <a href="https://play.google.com/store/apps/details?id=com.ojesy.ojesy&hl=en">
                                                         <button type="button" class="js-show-popup"
                                                             data-id="content-video-hero-2">
-                                                            Lihat Lebih
+                                                            DOWNLOAD SEKARANG
                                                             
                                                         </button>
                                                     </a>
@@ -128,44 +128,28 @@
             <div class="row">
                 <div class="col-sm-1">
                 </div>
-                <div class="col-sm-2" id="keuntungan">
+                <div class="col-sm-3" id="keuntungan">
                     <div>
                         <img src="/img/duit.png">
                     </div>
                     <div>
-                        <br>Menambah penghasilan sehari hari
+                        <br>Tarif Murah
                     </div>
                 </div>
-                <div class="col-sm-2" id="keuntungan">
+                <div class="col-sm-3" id="keuntungan">
                     <div>
-                        <img src="/img/duit.png">
+                        <img src="/img/woman.png">
                     </div>
                     <div>
-                        <br>Menambah penghasilan sehari hari
-                    </div>
-                </div>
-                <div class="col-sm-2" id="keuntungan">
-                    <div>
-                        <img src="/img/duit.png">
-                    </div>
-                    <div>
-                        <br>Menambah penghasilan sehari hari
+                        <br>Pengendara Perempuan
                     </div>
                 </div>
-                <div class="col-sm-2" id="keuntungan">
+                <div class="col-sm-3" id="keuntungan">
                     <div>
-                        <img src="/img/duit.png">
+                        <img src="/img/time.png">
                     </div>
                     <div>
-                        <br>Menambah penghasilan sehari hari
-                    </div>
-                </div>
-                <div class="col-sm-2" id="keuntungan">
-                    <div>
-                        <img src="/img/duit.png">
-                    </div>
-                    <div>
-                        <br>Menambah penghasilan sehari hari
+                        <br>Penjemputan Cepat
                     </div>
                 </div>
                 <div class="col-sm-1">
@@ -254,6 +238,7 @@
                 </div>
             </div>
     </div>
+    <br><br>
         <!-- Selesai Ngoding -->
         <div id="footer" class="container-fluid">
         <div class="row">
