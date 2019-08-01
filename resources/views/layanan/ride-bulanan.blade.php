@@ -130,18 +130,10 @@
                 </div>
                 <div class="col-sm-3" id="keuntungan">
                     <div>
-                        <img src="/img/duit.png">
-                    </div>
-                    <div>
-                        <br>Tarif Murah
-                    </div>
-                </div>
-                <div class="col-sm-3" id="keuntungan">
-                    <div>
                         <img src="/img/woman.png">
                     </div>
                     <div>
-                        <br>Pengendara Perempuan
+                        <br>Pengendara Perempuan Bersahabat
                     </div>
                 </div>
                 <div class="col-sm-3" id="keuntungan">
@@ -149,7 +141,15 @@
                         <img src="/img/time.png">
                     </div>
                     <div>
-                        <br>Penjemputan Cepat
+                        <br>Penjemputan Sesuai Jadwal
+                    </div>
+                </div>
+                <div class="col-sm-3" id="keuntungan">
+                    <div>
+                        <img src="/img/sistem.png">
+                    </div>
+                    <div>
+                        <br>Sistem Langganan Mudah
                     </div>
                 </div>
                 <div class="col-sm-1">

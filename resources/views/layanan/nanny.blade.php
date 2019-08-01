@@ -82,10 +82,10 @@
                         <div class="col-12">
                             <div class="c-hero--banner-full__wrapper container-fluid">
                                 <picture> 
-                                <source src="/img/header_layanan/ridebln1.png" srcset="/img/header_layanan/ridebln1.png 400w, /img/header_layanan/ridebln1.png 800w, /img/header_layanan/ridebln1.png 3000w" media="(min-width: 769px)" alt="SyariHub-Bulanan" type="image/webp">
-                                <source src="/img/header_layanan/ridebln2.png" srcset="/img/header_layanan/ridebln2.png 400w, /img/header_layanan/ridebln2.png 800w, /img/header_layanan/ridebln2.png 3000w" media="(min-width: 769px)" alt="SyariHub-Bulanan" type="image/jpeg">
-                                <img src="/img/header_layanan/ridebln1.png" srcset="/img/header_layanan/ridebln1.png 400w, /img/header_layanan/ridebln1.png 800w, /img/header_layanan/ridebln1.png 3000w"alt="SyariHub-Bulanan" type="image/webp">
-                                <img src="/img/header_layanan/ridebln2.png" srcset="/img/header_layanan/ridebln2.png 400w, /img/header_layanan/ridebln2.png 800w, /img/header_layanan/ridebln2.png 3000w" alt="SyariHub-Bulanan" type="image/jpeg">
+                                <source src="/img/header_layanan/nanny1.png" srcset="/img/header_layanan/nanny1.png 400w, /img/header_layanan/nanny1.png 800w, /img/header_layanan/nanny1.png 3000w" media="(min-width: 769px)" alt="SyariHub-Bulanan" type="image/webp">
+                                <source src="/img/header_layanan/nanny2.png" srcset="/img/header_layanan/nanny2.png 400w, /img/header_layanan/nanny2.png 800w, /img/header_layanan/nanny2.png 3000w" media="(min-width: 769px)" alt="SyariHub-Bulanan" type="image/jpeg">
+                                <img src="/img/header_layanan/nanny1.png" srcset="/img/header_layanan/nanny1.png 400w, /img/header_layanan/nanny1.png 800w, /img/header_layanan/nanny1.png 3000w"alt="SyariHub-Bulanan" type="image/webp">
+                                <img src="/img/header_layanan/nanny2.png" srcset="/img/header_layanan/nanny2.png 400w, /img/header_layanan/nanny2.png 800w, /img/header_layanan/nanny2.png 3000w" alt="SyariHub-Bulanan" type="image/jpeg">
                                 </picture>
 
 
@@ -96,7 +96,7 @@
                                             <h1>SyariHub<br>NANNY</h1>
                                                 
                                                 <p style="color:white;font-family:'Times New Rowman';font-size: 105%;">
-                                                    <strong>SyariHub paham bahwa tugas sebagai ibu sangat beragam dan mulia.<br>Maka Syari Nanny akan memastikan ibu terbantu tugasnya menjaga dan mengasuh anak.</strong>
+                                                    <strong>SyariHub paham bahwa tugas sebagai ibu sangat<br>beragam dan mulia.<br>Maka Syari Nanny akan memastikan ibu terbantu<br>tugasnya menjaga dan mengasuh anak.</strong>
                                                 </p>      
                                                 <div class="c-hero--banner-full__content__action mt-2 mt-md-4">
                                                     <a href="https://play.google.com/store/apps/details?id=com.ojesy.ojesy&hl=en">
@@ -130,10 +130,10 @@
                 </div>
                 <div class="col-sm-3" id="keuntungan">
                     <div>
-                        <img src="/img/duit.png">
+                        <img src="/img/terpercaya.png">
                     </div>
                     <div>
-                        <br>Tarif Murah
+                        <br>Terpercaya
                     </div>
                 </div>
                 <div class="col-sm-3" id="keuntungan">
@@ -141,15 +141,15 @@
                         <img src="/img/woman.png">
                     </div>
                     <div>
-                        <br>Nanny Terpercaya
+                        <br>Nanny Muslimah
                     </div>
                 </div>
                 <div class="col-sm-3" id="keuntungan">
                     <div>
-                        <img src="/img/time.png">
+                        <img src="/img/sahabat.png">
                     </div>
                     <div>
-                        <br>Selalu Tersedia
+                        <br>Bersahabat
                     </div>
                 </div>
                 <div class="col-sm-1">

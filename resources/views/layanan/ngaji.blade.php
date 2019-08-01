@@ -82,10 +82,10 @@
                         <div class="col-12">
                             <div class="c-hero--banner-full__wrapper container-fluid">
                                 <picture> 
-                                <source src="/img/header_layanan/ridebln1.png" srcset="/img/header_layanan/ridebln1.png 400w, /img/header_layanan/ridebln1.png 800w, /img/header_layanan/ridebln1.png 3000w" media="(min-width: 769px)" alt="SyariHub-Bulanan" type="image/webp">
-                                <source src="/img/header_layanan/ridebln2.png" srcset="/img/header_layanan/ridebln2.png 400w, /img/header_layanan/ridebln2.png 800w, /img/header_layanan/ridebln2.png 3000w" media="(min-width: 769px)" alt="SyariHub-Bulanan" type="image/jpeg">
-                                <img src="/img/header_layanan/ridebln1.png" srcset="/img/header_layanan/ridebln1.png 400w, /img/header_layanan/ridebln1.png 800w, /img/header_layanan/ridebln1.png 3000w"alt="SyariHub-Bulanan" type="image/webp">
-                                <img src="/img/header_layanan/ridebln2.png" srcset="/img/header_layanan/ridebln2.png 400w, /img/header_layanan/ridebln2.png 800w, /img/header_layanan/ridebln2.png 3000w" alt="SyariHub-Bulanan" type="image/jpeg">
+                                <source src="/img/header_layanan/ngaji1.png" srcset="/img/header_layanan/ngaji1.png 400w, /img/header_layanan/ngaji1.png 800w, /img/header_layanan/ngaji1.png 3000w" media="(min-width: 769px)" alt="SyariHub-Bulanan" type="image/webp">
+                                <source src="/img/header_layanan/ngaji2.png" srcset="/img/header_layanan/ngaji2.png 400w, /img/header_layanan/ngaji2.png 800w, /img/header_layanan/ngaji2.png 3000w" media="(min-width: 769px)" alt="SyariHub-Bulanan" type="image/jpeg">
+                                <img src="/img/header_layanan/ngaji1.png" srcset="/img/header_layanan/ngaji1.png 400w, /img/header_layanan/ngaji1.png 800w, /img/header_layanan/ngaji1.png 3000w"alt="SyariHub-Bulanan" type="image/webp">
+                                <img src="/img/header_layanan/ngaji2.png" srcset="/img/header_layanan/ngaji2.png 400w, /img/header_layanan/ngaji2.png 800w, /img/header_layanan/ngaji2.png 3000w" alt="SyariHub-Bulanan" type="image/jpeg">
                                 </picture>
 
 

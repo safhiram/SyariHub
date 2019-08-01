@@ -138,26 +138,26 @@
                 </div>
                 <div class="col-sm-3" id="keuntungan">
                     <div>
-                        <img src="/img/duit.png">
-                    </div>
-                    <div>
-                        <br>Tarif Murah
-                    </div>
-                </div>
-                <div class="col-sm-3" id="keuntungan">
-                    <div>
-                        <img src="/img/meeting.png">
-                    </div>
-                    <div>
-                        <br>Untuk Acara Apapun
-                    </div>
-                </div>
-                <div class="col-sm-3" id="keuntungan">
-                    <div>
                         <img src="/img/time.png">
                     </div>
                     <div>
-                        <br>Pengantaran Fleksibel
+                        <br>Bisa Berlangganan Harian
+                    </div>
+                </div>
+                <div class="col-sm-3" id="keuntungan">
+                    <div>
+                        <img src="/img/home.png">
+                    </div>
+                    <div>
+                        <br>Diantar Sampai Rumah
+                    </div>
+                </div>
+                <div class="col-sm-3" id="keuntungan">
+                    <div>
+                        <img src="/img/halal.png">
+                    </div>
+                    <div>
+                        <br>Dijamin Halal
                     </div>
                 </div>
                 <div class="col-sm-1">
