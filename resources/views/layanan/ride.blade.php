@@ -206,19 +206,36 @@
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                    <img class="d-block w-100" src="https://rawgit.com/creativetimofficial/material-kit/master/assets/img/bg.jpg"
-                                    alt="First slide">
+                                    <img class="d-block w-100" src="/img/step/ride/1.png"
+                                    alt="Slide Satu">
                                     </div>
+
                                     <div class="carousel-item">
-                                    <img class="d-block w-100" src="https://rawgit.com/creativetimofficial/material-kit/master/assets/img/bg2.jpg"  alt="Second slide">
-                    
+                                    <img class="d-block w-100" src="/img/step/ride/2.png"  alt="Slide Dua">
                                     </div>
+
                                     <div class="carousel-item">
-                                    <img class="d-block w-100" src="https://rawgit.com/creativetimofficial/material-kit/master/assets/img/bg3.jpg" alt="Third slide">
+                                    <img class="d-block w-100" src="/img/step/ride/3.png" alt="Slide Tiga">
                                     </div>
+
                                     <div class="carousel-item">
-                                    <img class="d-block w-100" src="https://rawgit.com/creativetimofficial/material-kit/master/assets/img/bg2.jpg"  alt="Second slide">
-                    
+                                    <img class="d-block w-100" src="/img/step/ride/4.png"  alt="Slide Empat">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                    <img class="d-block w-100" src="/img/step/ride/5.png"  alt="Slide Lima">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                    <img class="d-block w-100" src="/img/step/ride/6.png"  alt="Slide Enam">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                    <img class="d-block w-100" src="/img/step/ride/7.png"  alt="Slide Tujuh">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                    <img class="d-block w-100" src="/img/step/ride/8.png"  alt="Slide Delapan">
                                     </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
