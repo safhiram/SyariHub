@@ -206,19 +206,24 @@
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                    <img class="d-block w-100" src="https://rawgit.com/creativetimofficial/material-kit/master/assets/img/bg.jpg"
-                                    alt="First slide">
+                                    <img class="d-block w-100" src="/img/step/nanny/1.png"
+                                    alt="Slide Satu">
                                     </div>
+
                                     <div class="carousel-item">
-                                    <img class="d-block w-100" src="https://rawgit.com/creativetimofficial/material-kit/master/assets/img/bg2.jpg"  alt="Second slide">
-                    
+                                    <img class="d-block w-100" src="/img/step/nanny/2.png"  alt="Slide Dua">
                                     </div>
+
                                     <div class="carousel-item">
-                                    <img class="d-block w-100" src="https://rawgit.com/creativetimofficial/material-kit/master/assets/img/bg3.jpg" alt="Third slide">
+                                    <img class="d-block w-100" src="/img/step/nanny/3.png" alt="Slide Tiga">
                                     </div>
+
                                     <div class="carousel-item">
-                                    <img class="d-block w-100" src="https://rawgit.com/creativetimofficial/material-kit/master/assets/img/bg2.jpg"  alt="Second slide">
-                    
+                                    <img class="d-block w-100" src="/img/step/nanny/4.png"  alt="Slide Empat">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                    <img class="d-block w-100" src="/img/step/nanny/5.png"  alt="Slide Lima">
                                     </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
