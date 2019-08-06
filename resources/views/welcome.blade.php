@@ -37,6 +37,15 @@
                 Layanan
                 </a>
                 <div class="dropdown-menu sm-menu">
+<<<<<<< HEAD
+                <a class="dropdown-item" href="ride"><img src="/img/icon/ojek.png">   SyariHub Ride</a>
+                        <a class="dropdown-item" href="ride-bulanan"><img src="/img/icon/ojek-bln.png">   SyariHub Ride Bulanan</a>
+                        <a class="dropdown-item" href="nanni"><img src="/img/icon/nany.png">   SyariHub Nanny</a>
+                        <a class="dropdown-item" href="ngaji"><img src="/img/icon/ngaji.png">   SyariHub Al-Quran Mentor</a>
+                        <a class="dropdown-item" href="catering"><img src="/img/icon/catering.png">   SyariHub Catering</a>
+                        <a class="dropdown-item" href="massage"><img src="/img/icon/massage.png">   SyariHub Massage</a>
+                        <a class="dropdown-item" href="store"><img src="/img/icon/store.png">   SyariHub Store</a>
+=======
                 <a class="dropdown-item" href="ride"><img src="/img/icon/ojek.png">   Syari Ride</a>
                 <a class="dropdown-item" href="ride-bulanan"><img src="/img/icon/ojek-bln.png">   Syari Ride Bulanan</a>
                 <a class="dropdown-item" href="nanny"><img src="/img/icon/nany.png">   Syari Nanny</a>
@@ -45,8 +54,10 @@
                 <a class="dropdown-item" href="massage"><img src="/img/icon/massage.png">   Syari Massage</a>
                 <a class="dropdown-item" href="store"><img src="/img/icon/store.png">   Syari Store</a>
                 <a class="dropdown-item" href="lifestyle"><img src="/img/icon/lifestyle.png">   Syari Lifestyle</a>
+>>>>>>> master
             </div>
             </li>
+        <li class="nav-item">
             <li class="nav-item">
             <a class="nav-link" href="#">Berita</a>
             </li>
@@ -67,6 +78,7 @@
               <a class="dropdown-item" href="/mitra-pengendara"><img src="/img/icon/ojek.png">   Pengendara</a>
               <a class="dropdown-item" href="/mitra-nanny"><img src="/img/icon/nany.png">   Nanny</a>
               <a class="dropdown-item" href="/mitra-mentor"><img src="/img/icon/ngaji.png">   Mentor Al-Quran</a>
+              <a class="dropdown-item" href="/mitra-massage"><img src="/img/icon/massage.png">   Massage</a>
             </div>
           </li>
         </ul>
@@ -124,7 +136,7 @@
                 <div class="col-sm-4" >
                     <div class="row" class="container-fluid">
                         <div class="col-sm-3">
-                        <a href="">
+                        <a href="ride">
                             <figure>
                                 <img src="/img/ojek.png" style="width:90%;max-width:100px;">
                                 
@@ -134,7 +146,7 @@
                         </a>
                         </div>
                         <div class="col-sm-3" >
-                        <a href="">
+                        <a href="ride-bulanan">
                             <figure>
                                 <img src="/img/ojek-bln.png" style="width:90%;max-width:100px;">
                                 <figcaption style>Syari<br>Ride<br>Bulanan
@@ -143,16 +155,16 @@
                         </a>
                         </div>
                         <div class="col-sm-3">
-                        <a href="">
+                        <a href="nanni">
                             <figure>
                                 <img src="/img/nany.png" style="width:90%;max-width:100px;">
-                                <figcaption style>Syari<br>Nany
+                                <figcaption style>Syari<br>Nanny
                                 </figcaption>
                             </figure>
                         </a>
                         </div>
                         <div class="col-sm-3" >
-                        <a href="">
+                        <a href="ngaji">
                             <figure>
                                 <img src="/img/ngaji.png" style="width:90%;max-width:100px;">
                                 <figcaption style>Syari<br>Ngaji
@@ -170,45 +182,36 @@
                 <div class="col-sm-4" ></div>
                 <div class="col-sm-4" >
                     <div class="row" class="container-fluid">
-                        <div class="col-sm-3">
-                        <a href="">
+                        <div class="col-sm-4" >
+                        <a href="catering">
                             <figure>
-                                <img src="/img/catering.png" style="width:90%;max-width:100px;">
+                                <img src="/img/catering.png" style="width:60%;max-width:100px;">
                                 <figcaption style>Syari<br>Catering
                                 </figcaption>
                             </figure>
                         </a>
                         </div>
-                        <div class="col-sm-3" >
-                        <a href="">
+                        <div class="col-sm-4" style="margin-left:-2%;">
+                        <a href="massage">
                             <figure>
-                                <img src="/img/massage.png" style="width:90%;max-width:100px;">
+                                <img src="/img/massage.png" style="width:60%;max-width:100px;">
                                 <figcaption style>Syari<br>Massage
                                 </figcaption>
                             </figure>
                         </a>
                         </div>
-                        <div class="col-sm-3">
-                        <a href="">
+                        <div class="col-sm-4">
+                        <a href="store">
                             <figure>
-                                <img src="/img/store.png" style="width:90%;max-width:100px;">
+                                <img src="/img/store.png" style="width:60%;max-width:100px;">
                                 <figcaption style>Syari<br>Store
-                                </figcaption>
-                            </figure>
-                        </a>
-                        </div>
-                        <div class="col-sm-3" >
-                        <a href="">
-                            <figure>
-                                <img src="/img/lifestyle.png" style="width:90%;max-width:100px;">
-                                <figcaption style>Syari<br>Lifestyle
                                 </figcaption>
                             </figure>
                         </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4" ></div>
+                <div class="col-sm-4"></div>
             </div>
         </div>
     </div>
