@@ -35,17 +35,14 @@ Route::get('ride', function () {
 Route::get('ride-bulanan', function () {
     return view('layanan.ride-bulanan');
 });
-Route::get('nanny', function () {
-    return view('layanan.nanny');
+Route::get('nanni', function () {
+    return view('layanan.nanni');
 });
 Route::get('massage', function () {
     return view('layanan.massage');
 });
 Route::get('ngaji', function () {
     return view('layanan.ngaji');
-});
-Route::get('lifestyle', function () {
-    return view('layanan.lifestyle');
 });
 Route::get('catering', function () {
     return view('layanan.catering');
