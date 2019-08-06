@@ -37,7 +37,6 @@
                 Layanan
                 </a>
                 <div class="dropdown-menu sm-menu">
-<<<<<<< HEAD
                 <a class="dropdown-item" href="ride"><img src="/img/icon/ojek.png">   SyariHub Ride</a>
                         <a class="dropdown-item" href="ride-bulanan"><img src="/img/icon/ojek-bln.png">   SyariHub Ride Bulanan</a>
                         <a class="dropdown-item" href="nanni"><img src="/img/icon/nany.png">   SyariHub Nanny</a>
@@ -45,21 +44,7 @@
                         <a class="dropdown-item" href="catering"><img src="/img/icon/catering.png">   SyariHub Catering</a>
                         <a class="dropdown-item" href="massage"><img src="/img/icon/massage.png">   SyariHub Massage</a>
                         <a class="dropdown-item" href="store"><img src="/img/icon/store.png">   SyariHub Store</a>
-=======
-                <a class="dropdown-item" href="ride"><img src="/img/icon/ojek.png">   Syari Ride</a>
-                <a class="dropdown-item" href="ride-bulanan"><img src="/img/icon/ojek-bln.png">   Syari Ride Bulanan</a>
-                <a class="dropdown-item" href="nanny"><img src="/img/icon/nany.png">   Syari Nanny</a>
-                <a class="dropdown-item" href="ngaji"><img src="/img/icon/ngaji.png">   Syari Ngaji</a>
-                <a class="dropdown-item" href="catering"><img src="/img/icon/catering.png">   Syari Catering</a>
-                <a class="dropdown-item" href="massage"><img src="/img/icon/massage.png">   Syari Massage</a>
-                <a class="dropdown-item" href="store"><img src="/img/icon/store.png">   Syari Store</a>
-                <a class="dropdown-item" href="lifestyle"><img src="/img/icon/lifestyle.png">   Syari Lifestyle</a>
->>>>>>> master
             </div>
-            </li>
-        <li class="nav-item">
-            <li class="nav-item">
-            <a class="nav-link" href="#">Berita</a>
             </li>
         <li class="nav-item">
             <li class="nav-item">
