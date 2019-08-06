@@ -40,14 +40,13 @@
                 Layanan
                 </a>
                 <div class="dropdown-menu sm-menu">
-                <a class="dropdown-item" href="#"><img src="/img/icon/ojek.png">   Syari Ride</a>
-                <a class="dropdown-item" href="#"><img src="/img/icon/ojek-bln.png">   Syari Ride Bulanan</a>
-                <a class="dropdown-item" href="#"><img src="/img/icon/nany.png">   Syari Nanny</a>
-                <a class="dropdown-item" href="#"><img src="/img/icon/ngaji.png">   Syari Ngaji</a>
-                <a class="dropdown-item" href="#"><img src="/img/icon/catering.png">   Syari Catering</a>
-                <a class="dropdown-item" href="#"><img src="/img/icon/massage.png">   Syari Massage</a>
-                <a class="dropdown-item" href="#"><img src="/img/icon/store.png">   Syari Store</a>
-                <a class="dropdown-item" href="#"><img src="/img/icon/lifestyle.png">   Syari Lifestyle</a>
+                <a class="dropdown-item" href="ride"><img src="/img/icon/ojek.png">   SyariHub Ride</a>
+                        <a class="dropdown-item" href="ride-bulanan"><img src="/img/icon/ojek-bln.png">   SyariHub Ride Bulanan</a>
+                        <a class="dropdown-item" href="nanni"><img src="/img/icon/nany.png">   SyariHub Nanny</a>
+                        <a class="dropdown-item" href="ngaji"><img src="/img/icon/ngaji.png">   SyariHub Al-Quran Mentor</a>
+                        <a class="dropdown-item" href="catering"><img src="/img/icon/catering.png">   SyariHub Catering</a>
+                        <a class="dropdown-item" href="massage"><img src="/img/icon/massage.png">   SyariHub Massage</a>
+                        <a class="dropdown-item" href="store"><img src="/img/icon/store.png">   SyariHub Store</a>
             </div>
             </li>
             <li class="nav-item">
@@ -66,6 +65,7 @@
             <a class="dropdown-item" href="/mitra-pengendara"><img src="/img/icon/ojek.png">   Pengendara</a>
               <a class="dropdown-item" href="/mitra-nanny"><img src="/img/icon/nany.png">   Nanny</a>
               <a class="dropdown-item" href="/mitra-mentor"><img src="/img/icon/ngaji.png">   Mentor Al-Quran</a>
+              <a class="dropdown-item" href="/mitra-massage"><img src="/img/icon/massage.png">   Massage</a>
             </div>
           </li>
         </ul>
@@ -243,9 +243,9 @@
     </div>
     <br><br><br>
     <div class="row">
-        <div class="col-sm-1">
+        <div class="col-sm-3">
         </div>
-        <div class="col-sm-3" id="keuntungan">
+        <div class="col-sm-2" id="keuntungan">
             <div>
                 <img src="/img/syarat.png">
             </div>
@@ -253,7 +253,7 @@
                 <br>Persyaratan Mudah
             </div>
         </div>
-        <div class="col-sm-3" id="keuntungan">
+        <div class="col-sm-2" id="keuntungan">
             <div>
                 <img src="/img/time.png">
             </div>
@@ -261,7 +261,7 @@
                 <br>Jam Kerja Fleksibel
             </div>
         </div>
-        <div class="col-sm-3" id="keuntungan">
+        <div class="col-sm-2" id="keuntungan">
             <div>
                 <img src="/img/duit.png">
             </div>
@@ -269,7 +269,7 @@
                 <br>Penghasilan Berkah
             </div>
         </div>
-        <div class="col-sm-1">
+        <div class="col-sm-3">
         </div>
     </div>
 </div>
