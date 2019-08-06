@@ -40,21 +40,20 @@
                         Layanan
                         </a>
                         <div class="dropdown-menu sm-menu">
-                        <a class="dropdown-item" href="ride"><img src="/img/icon/ojek.png">   Syari Ride</a>
-                        <a class="dropdown-item" href="ride-bulanan"><img src="/img/icon/ojek-bln.png">   Syari Ride Bulanan</a>
-                        <a class="dropdown-item" href="nanny"><img src="/img/icon/nany.png">   Syari Nanny</a>
-                        <a class="dropdown-item" href="ngaji"><img src="/img/icon/ngaji.png">   Syari Ngaji</a>
-                        <a class="dropdown-item" href="catering"><img src="/img/icon/catering.png">   Syari Catering</a>
-                        <a class="dropdown-item" href="massage"><img src="/img/icon/massage.png">   Syari Massage</a>
-                        <a class="dropdown-item" href="store"><img src="/img/icon/store.png">   Syari Store</a>
-                        <a class="dropdown-item" href="lifestyle"><img src="/img/icon/lifestyle.png">   Syari Lifestyle</a>
+                        <a class="dropdown-item" href="ride"><img src="/img/icon/ojek.png">   SyariHub Ride</a>
+                        <a class="dropdown-item" href="ride-bulanan"><img src="/img/icon/ojek-bln.png">   SyariHub Ride Bulanan</a>
+                        <a class="dropdown-item" href="nanni"><img src="/img/icon/nany.png">   SyariHub Nanny</a>
+                        <a class="dropdown-item" href="ngaji"><img src="/img/icon/ngaji.png">   SyariHub Al-Quran Mentor</a>
+                        <a class="dropdown-item" href="catering"><img src="/img/icon/catering.png">   SyariHub Catering</a>
+                        <a class="dropdown-item" href="massage"><img src="/img/icon/massage.png">   SyariHub Massage</a>
+                        <a class="dropdown-item" href="store"><img src="/img/icon/store.png">   SyariHub Store</a>
                     </div>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="#">Berita</a>
                     </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tentang Kami</a>
+                    <a class="nav-link" href="tentang-kami">Tentang Kami</a>
                 </li>
                 </ul>
                 <ul class="navbar-right navbar-nav mr-4">
@@ -66,6 +65,7 @@
                     <a class="dropdown-item" href="/mitra-pengendara"><img src="/img/icon/ojek.png">   Pengendara</a>
                     <a class="dropdown-item" href="/mitra-nanny"><img src="/img/icon/nany.png">   Nanny</a>
                     <a class="dropdown-item" href="/mitra-mentor"><img src="/img/icon/ngaji.png">   Mentor Al-Quran</a>
+                    <a class="dropdown-item" href="/mitra-massage"><img src="/img/icon/massage.png">   Massage</a>
                     </div>
                 </li>
                 </ul>
@@ -93,10 +93,10 @@
                                     <div class="c-hero--banner-full__content u-text-align__center--mobile u-text-align__center--tablet">
                                         <div class="row">
                                             <div class="col-12 col-md-6">
-                                            <h1>SyariHub<br>STORE</h1>
+                                            <h1>SyariHub Store</h1>
                                                 
                                                 <p style="color:white;font-family:'Times New Rowman';font-size: 105%;">
-                                                    <strong>SyariHub paham bahwa tugas sebagai ibu sangat beragam dan mulia.<br>Maka Syari Nanny akan memastikan ibu terbantu tugasnya menjaga dan mengasuh anak.</strong>
+                                                    <strong>Berbagai kebutuhan untuk melayani umat muslim.</strong>
                                                 </p>      
                                                 <div class="c-hero--banner-full__content__action mt-2 mt-md-4">
                                                     <a href="https://play.google.com/store/apps/details?id=com.ojesy.ojesy&hl=en">
@@ -156,35 +156,6 @@
                 </div>
             </div>   
         </div><br><br><br>
-        <div class="container" id="dua">
-            <div id="tulisan">
-            <b>TESTIMONI CUSTOMER STORE</b>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-3">
-                </div>
-                <div class="col-lg-6 col-sm-6">
-
-                    <div class="card hovercard">
-                        <div class="cardheader">
-                        </div>
-                        <div class="avatar">
-                            <a><img alt="" src="/img/profil.png"></a>
-                        </div>
-                        <div class="info">
-                            <div class="title">
-                                <a target="_blank" href="http://www.doweb.in/">Heni A. - Sidoarjo</a>
-                            </div>
-                            <div class="desc">Sejak bergabung menjadi Sahabat Penendara SyariHub Ride <br> saya mulai berhijab dan mengikuti pengajian rutin RT.</div>
-                            <div class="desc">Anak juga suka dengan perkembangan tersebut.</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                </div>
-            </div>
-        </div><br><br><br>
         <div class="container" id="tiga">
             <div id="tulisan">
             <b>CARA PAKAI SYARIHUB-STORE</b>
@@ -196,7 +167,7 @@
                         <div class="col-md-8 mr-auto ml-auto">
 
                             <!-- Carousel Card -->
-                            <div class="card card-raised card-carousel">
+                            <div class="card card-raised card-carousel"  style="border: solid black 0px;">
                                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
                                 <ol class="carousel-indicators">
                                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -221,11 +192,11 @@
                     
                                     </div>
                                 </div>
-                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" style="color:black; font-size:200%;" role="button" data-slide="prev">
                                     <i class="material-icons"><</i>
                                     <span class="sr-only">Previous</span>
                                 </a>
-                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" style="color:black; font-size:200%;" role="button" data-slide="next">
                                     <i class="material-icons">></i>
                                     <span class="sr-only">Next</span>
                                 </a>
